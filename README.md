@@ -7,10 +7,10 @@ You will find more readings about Last here
 
 # Table of Contents
 - [Last channels and links]()
-- [Developer tools]
-- [Node providers]
-- [Governance]
-- [Community created content]
+- [Developer tools]()
+- [Node providers]()
+- [Governance]()
+- [Community created content]()
 
 
 # Last channels and links
