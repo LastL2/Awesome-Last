@@ -80,7 +80,7 @@ Guidelines:
 Last is using Gauge and Bribes system for it's governance
 
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/)
-- 
+  
 
 # Community created content
 Add a link to your content here
