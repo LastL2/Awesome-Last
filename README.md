@@ -29,7 +29,7 @@ Guidelines:
 - [Spin up your own Ethereum node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) by @nhsz
 - [How to deploy a ThorChain node on linux](https://www.blockmeadow.com/how-to-deploy-a-thorchain-node-on-linux/) by BlockMeadow
 - [Run Thorchain node](https://gitlab.com/thorchain/thornode/-/blob/develop/README.md#setup) by Official Thorchain node repo, tutorial is Linux and Mac OS compatible
-- [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node)
+- [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) by Bitcoin.org
 
 # Governance
 Last is using Gauge and Bribes system for it's governance
