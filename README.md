@@ -20,7 +20,50 @@ Official Last social media channels
 - [Discord](https://last.community/)
 
 # Developer tools 
-Start building on Last
+Start building on Last. Everything you need to know before building with Last 
+
+### Solidity is a great place to start! 
+- [Solidity lang](https://soliditylang.org/) official website
+- [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
+
+Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Foundry](https://book.getfoundry.sh/)
+
+### General Ethereum tutorials and courses
+- [Foundation of Ethereum Development stack](https://ethereum.org/en/developers/docs/) Ethereum.org
+- [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6)](https://www.youtube.com/watch?v=umepbfKp5rI) by Patrick Collins
+- [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource all things Ethereum and Go by DCBuilder
+- [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
+- [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae)
+- 
+
+
+
+# Start building on Last
+### Last L2 is utilizing Arbitrum Nitro: 
+- [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
+- [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
+- [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
+Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. Learn more about Stylus:
+- [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
+
+### Last Custody Network (LCN) is leveraging Go, great place to start with Go:
+- [Install Go](https://go.dev/doc/install)
+- [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
+
+### Last Custody Network (LCN) is leveraging Cosmos SDK, dive into Cosmos SDK:
+- [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
+- [Learn to build via Cosmos SDK](https://docs.cosmos.network/)
+- [Overview of the Cosmos SDK](https://docs.cosmos.network/v0.50/learn/intro/overview)
+- Last is [application specific blockchain](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
+
+
+
+### Last Custody Network (LCN) is leveraging Bifrost module for it's twinchain communication module
+
+
+### Last Custody Network (LCN) is leveraging TSS for key management: 
+- [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
+
 
 # Node provides
 Run node for Last ⬛️ 
