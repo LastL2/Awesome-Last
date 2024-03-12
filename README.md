@@ -1,5 +1,7 @@
 # Awesome-Last
-Awesome Last is a community-driven public repository designed to be a resource people can use to familiarize themselves with Last ⬛️ All are welcome to contribute! 
+Awesome Last is a community-driven public repository designed to be a resource people can use to familiarize themselves with Last ⬛️ 
+
+All are welcome to contribute! 
 
 You will find more readings about Last here 
 
@@ -34,7 +36,7 @@ Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Found
 - [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource all things Ethereum and Go by DCBuilder
 - [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
 - [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae)
-- 
+  
 
 
 
@@ -57,8 +59,8 @@ Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficien
 - Last is [application specific blockchain](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
 
 
-
-### Last Custody Network (LCN) is leveraging Bifrost module for it's twinchain communication module
+### Last Custody Network (LCN) is leveraging Bifroest module for it's twinchain communication module:
+- [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
 
 ### Last Custody Network (LCN) is leveraging TSS for key management: 
