@@ -46,7 +46,9 @@ Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Found
 - [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
 - [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
 - [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
+
 Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. Learn more about Stylus:
+- [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
 - [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
 
 ### Last Custody Network (LCN) is leveraging Go, great place to start with Go:
