@@ -29,7 +29,7 @@ Start building on Last. Everything you need to know as developer before building
 - [Solidity lang](https://soliditylang.org/) official website
 - [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
 
-Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Foundry](https://book.getfoundry.sh/)
+Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Foundry](https://book.getfoundry.sh/). You might want to try out [Altlas IDE](https://www.atlaszk.com/) for building and interacting with Last contracts.
 
 ### General Ethereum tutorials and courses
 - [Foundation of Ethereum Development stack](https://ethereum.org/en/developers/docs/) Ethereum.org
