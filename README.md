@@ -8,11 +8,12 @@ You will find more readings about Last here
 ## About Last
 
 # Table of Contents
-- [Last channels and links]()
-- [Developer tools]()
-- [Node providers]()
-- [Governance]()
-- [Community created content]()
+- [Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
+- [Developer tool introduction](https://github.com/LastL2/Awesome-Last/blob/main/README.md#developer-tools)
+- [Start building on Last](https://github.com/LastL2/Awesome-Last/blob/main/README.md#start-building-on-last)
+- [Node providers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#node-provides)
+- [Governance](https://github.com/LastL2/Awesome-Last/blob/main/README.md#governance)
+- [Community created content](https://github.com/LastL2/Awesome-Last/blob/main/README.md#community-created-content)
 
 
 # Last channels and links
@@ -21,8 +22,8 @@ Official Last social media channels
 - [Farcaster channel](https://warpcast.com/~/channel/last)
 - [Discord](https://last.community/)
 
-# Developer tools 
-Start building on Last. Everything you need to know before building with Last 
+# Developer tool introduction
+Start building on Last. Everything you need to know as developer before building with Last stack
 
 ### Solidity is a great place to start! 
 - [Solidity lang](https://soliditylang.org/) official website
