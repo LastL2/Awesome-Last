@@ -100,7 +100,8 @@ List of amazing DeFi and Last related publications:
 - [Kerman Kohli](https://kermankohli.substack.com/) Substack full of amazing DeFi resources!
 - [Kerman Kohli YouTube](https://www.youtube.com/@DeFiWeekly/videos) short video explanations
 - [Wrong a lot](https://wrongalot.substack.com/archive) Substack by Matti from ZeePrime capital
-- [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design 
+- [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design
+- [Layer 2 Weekly Roundup](https://layer2roundup.substack.com/) Substack by Scroll community manager of updates about L2s out there
 
 
 # Community created content
