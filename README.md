@@ -13,6 +13,7 @@ You will find more readings about Last here
 - [Start building on Last](https://github.com/LastL2/Awesome-Last/blob/main/README.md#start-building-on-last)
 - [Node providers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#node-provides)
 - [Governance](https://github.com/LastL2/Awesome-Last/blob/main/README.md#governance)
+- [Awesome DeFi publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
 - [Community created content](https://github.com/LastL2/Awesome-Last/blob/main/README.md#community-created-content)
 
 
@@ -98,6 +99,7 @@ List of amazing DeFi and Last related publications:
 - [Kerman Kohli](https://kermankohli.substack.com/) Substack full of amazing DeFi resources!
 - [Kerman Kohli YouTube](https://www.youtube.com/@DeFiWeekly/videos) short video explanations
 - [Wrong a lot](https://wrongalot.substack.com/archive) Substack by Matti from ZeePrime capital
+- [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design 
 
 
 # Community created content
