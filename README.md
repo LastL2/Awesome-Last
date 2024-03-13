@@ -39,8 +39,6 @@ Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Found
 - [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae)
   
 
-
-
 # Start building on Last
 ### Last L2 is utilizing Arbitrum Nitro: 
 - [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
@@ -80,9 +78,13 @@ Guidelines:
 - [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) by Bitcoin.org
 
 # Governance
-Last is using Gauge and Bribes system for it's governance
+Last is using Gauge and Bribe system for its governance. You can learn more about Gauge and Bribes here:
 
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/)
+- [Gauges overview](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/gauges/overview/) by Curve docs
+- [Gauges for EVM sidechains](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/evm-sidechains/overview/) by Curve docs
+- [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b) blog post by Andre Cronje
+- [Voting and Gauge Weights](https://docs.convexfinance.com/convexfinance/general-information/why-convex/voting-and-gauge-weights) Convex Finance docs
   
 
 # Community created content
