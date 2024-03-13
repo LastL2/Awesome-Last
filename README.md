@@ -93,6 +93,9 @@ Last is using the Gauge and Bribe system for its governance. You can learn more 
 - [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b) blog post by Andre Cronje
 - [Voting and Gauge Weights](https://docs.convexfinance.com/convexfinance/general-information/why-convex/voting-and-gauge-weights) Convex Finance docs
 
+More great reads related to L2 Governance (these are not fully related to Gauge and Bribe, but are worth to dive into): 
+- [Governance Decides Where Ethereum Transacts: The L2 Governance Race](https://tally.mirror.xyz/QZNVKjupNZmSUsY9R2sV5_vA-qe1fsCMW2hlnZ-5lEg) Blog post by Tally
+
 # Awesome DeFi publications & Tutorials
 List of amazing DeFi and Last related publications:
 
