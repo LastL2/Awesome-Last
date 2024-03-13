@@ -24,11 +24,12 @@ Official Last social media channels
 - [Discord](https://last.community/)
 
 # Developer tool introduction
-Start building on Last. Everything you need to know as a developer before building with the Last stack
+Start building on Last. Everything you need to know as a developer before building with the Last stack:
 
-General reads on DeFi and Ethereum
+### General reads on DeFi and Ethereum
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
 - [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
+- [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
 
   
 ### Solidity is a great place to start! 
