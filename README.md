@@ -129,3 +129,7 @@ List of amazing DeFi and Last related publications:
 - [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design
 - [Layer 2 Weekly Roundup](https://layer2roundup.substack.com/) Substack by Scroll community manager of updates about L2s out there
 
+# Layer 2 
+Last is EVM-based L2, here is a list of amazing L2 related reads: 
+- [Evaluating Ethereum L2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955) blog post by Matter Labs, a bit older post but still interesting to understand the progress we've made in past years!
+- [The Scaling wars](https://thedailygwei.substack.com/p/the-scaling-wars-the-daily-gwei-518) quick read on the The Daily Gwei Substack 
