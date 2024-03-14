@@ -14,7 +14,6 @@ You will find more readings about Last here
 - [Node providers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#node-provides)
 - [Governance](https://github.com/LastL2/Awesome-Last/blob/main/README.md#governance)
 - [Awesome DeFi publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
-- [Community created content](https://github.com/LastL2/Awesome-Last/blob/main/README.md#community-created-content)
 
 
 # Last channels and links
@@ -120,6 +119,3 @@ List of amazing DeFi and Last related publications:
 - [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design
 - [Layer 2 Weekly Roundup](https://layer2roundup.substack.com/) Substack by Scroll community manager of updates about L2s out there
 
-
-# Community created content
-Add a link to your content here
