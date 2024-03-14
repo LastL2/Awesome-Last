@@ -23,7 +23,7 @@ Official Last social media channels
 - [Farcaster channel](https://warpcast.com/~/channel/last)
 - [Discord](https://last.community/)
 
-# Developer tool introduction
+# Developer tools 
 Start building on Last. Everything you need to know as a developer before building with the Last stack:
 
 ### General reads on DeFi and Ethereum
@@ -44,7 +44,9 @@ Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Found
 - [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource for all things Ethereum and Go by DCBuilder
 - [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
 - [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae)
-  
+
+### DeFi Tutorials and courses
+- [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
 
 # Start building on Last
 ### Last L2 is utilizing Arbitrum Nitro: 
@@ -83,6 +85,18 @@ Guidelines:
 - [How to deploy a ThorChain node on Linux](https://www.blockmeadow.com/how-to-deploy-a-thorchain-node-on-linux/) by BlockMeadow
 - [Run Thorchain node](https://gitlab.com/thorchain/thornode/-/blob/develop/README.md#setup) by Official Thorchain node repo. Tutorial is Linux and Mac OS compatible
 - [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) by Bitcoin.org
+
+### Recommendation from our community to run Ethereum node: 
+- Input from Brian, Co-founder @ Ansybl.io
+here are a few things to keep in mind: 
+1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum but the more the better (especially now that we’ve got blobs live on mainnet). If your running in a cloud environment most drives are network attached and will most likely be your bottle neck when it comes to sync times/rpc response time.
+2. Reth is fast becoming my favorite execution client. Fast, configurable and takes less disk space
+3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a grafana dashboard for most clients and it’ll make your life so much easier when debugging any issues
+- [Nimbus node guide](https://nimbus.guide/index.html)
+  
+### Recommendation from our community to run ThorChain node:
+- Input from Andro, Co-founder @ Last
+you need good bandwidth, and a fair amount of hd space,  with a decent processor, the node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
 
 # Governance
 Last is using the Gauge and Bribe system for its governance. You can learn more about Gauge and Bribes here:
