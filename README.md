@@ -110,13 +110,18 @@ Last will sorta use 3,3 mechanism. Here is outline of 3,3 voting mechanism. We w
 The idea behind ve(3,3) governance model is that you (as user & developer) can influence the will of the voters with a direct incentive, to direct the value(emissions) to the party providing something of want. In case of Curve, it means liquidity. In case of Last, it means deposited assets into the chain = yield-bearing assets. 
 
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
+
+Different protocols have its own explanations of these terms:
 - [Gauges overview](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/gauges/overview/) by Curve docs
 - [Gauges for EVM sidechains](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/evm-sidechains/overview/) by Curve docs
 - [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b) blog post by Andre Cronje
 - [Voting and Gauge Weights](https://docs.convexfinance.com/convexfinance/general-information/why-convex/voting-and-gauge-weights) Convex Finance docs
-- [Gauge](https://docs.frax.finance/vefxs/gauge) Frax Finance docs explaining more into depths how Gauge works
+- [Gauge](https://docs.frax.finance/vefxs/gauge) Frax Finance docs explaining in more depths how Gauge works
+- [Options Liquidity Mining](https://docs.poolshark.fi/token/why-ofin) Poolshark docs, Last is utilizing OLM mechanism design for its governance
+- [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. 
 
-More great reads related to L2 Governance (these are not fully related to Gauge and Bribe, but are worth to dive into): 
+### More great reads related to L2 Governance 
+These are not fully related to Gauge and Bribe, but are worth to dive into: 
 - [Governance Decides Where Ethereum Transacts: The L2 Governance Race](https://tally.mirror.xyz/QZNVKjupNZmSUsY9R2sV5_vA-qe1fsCMW2hlnZ-5lEg) Blog post by Tally
 
 # Awesome DeFi publications & Tutorials
