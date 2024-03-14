@@ -88,23 +88,31 @@ Guidelines:
 ### Recommendation from our community to run Ethereum node: 
 - Input from Brian, Co-founder @ Ansybl.io
 here are a few things to keep in mind: 
-1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum but the more the better (especially now that we’ve got blobs live on mainnet). If your running in a cloud environment most drives are network attached and will most likely be your bottle neck when it comes to sync times/rpc response time.
+1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum but the more the better (especially now that we’ve got blobs live on mainnet). If you're running in a cloud environment, most drives are network-attached and will most likely be your bottleneck when it comes to sync times/rpc response time.
 2. Reth is fast becoming my favorite execution client. Fast, configurable and takes less disk space
-3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a grafana dashboard for most clients and it’ll make your life so much easier when debugging any issues
+3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
 - [Nimbus node guide](https://nimbus.guide/index.html)
   
 ### Recommendation from our community to run ThorChain node:
 - Input from Andro, Co-founder @ Last: 
-you need good bandwidth, and a fair amount of hd space,  with a decent processor, the node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
+you need good bandwidth, and a fair amount of HDD space,  with a decent processor. The node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
 
 # Governance
 Last is using the Gauge and Bribe system for its governance. You can learn more about Gauge and Bribes here:
+
+Last is utilising ve(3,3) system which is composed of 3 parts = 
+- Gauge system
+- Bribe for votes 
+- and some emissions paid out to the stakers of the gauges
+
+The idea behind ve(3,3) governance model is that you (as user & developer) can influence the will of the voters with a direct incentive, to direct the value(emissions) to the party providing something of want. In case of Curve, it means liquidity. In case of Last, it means deposited assets into the chain = yield-bearing assets. 
 
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
 - [Gauges overview](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/gauges/overview/) by Curve docs
 - [Gauges for EVM sidechains](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/evm-sidechains/overview/) by Curve docs
 - [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b) blog post by Andre Cronje
 - [Voting and Gauge Weights](https://docs.convexfinance.com/convexfinance/general-information/why-convex/voting-and-gauge-weights) Convex Finance docs
+- [Gauge](https://docs.frax.finance/vefxs/gauge) Frax Finance docs explaining more into depths how Gauge works
 
 More great reads related to L2 Governance (these are not fully related to Gauge and Bribe, but are worth to dive into): 
 - [Governance Decides Where Ethereum Transacts: The L2 Governance Race](https://tally.mirror.xyz/QZNVKjupNZmSUsY9R2sV5_vA-qe1fsCMW2hlnZ-5lEg) Blog post by Tally
