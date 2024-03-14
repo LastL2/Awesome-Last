@@ -133,6 +133,7 @@ List of amazing DeFi and Last related publications:
 - [Wrong a lot](https://wrongalot.substack.com/archive) Substack by Matti from ZeePrime capital
 - [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design
 - [Layer 2 Weekly Roundup](https://layer2roundup.substack.com/) Substack by Scroll community manager of updates about L2s out there
+- [The Daily Gwei](https://www.youtube.com/thedailygwei) Daily YouTube podcast about the ecosystem
 
 # Layer 2 
 Last is EVM-based L2, here is a list of amazing L2 related reads: 
