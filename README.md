@@ -101,7 +101,7 @@ you need good bandwidth, and a fair amount of hd space,  with a decent processor
 # Governance
 Last is using the Gauge and Bribe system for its governance. You can learn more about Gauge and Bribes here:
 
-- [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/)
+- [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
 - [Gauges overview](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/gauges/overview/) by Curve docs
 - [Gauges for EVM sidechains](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/evm-sidechains/overview/) by Curve docs
 - [ve(3,3)](https://andrecronje.medium.com/ve-3-3-44466eaa088b) blog post by Andre Cronje
