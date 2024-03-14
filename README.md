@@ -105,6 +105,8 @@ Last is utilising ve(3,3) system which is composed of 3 parts =
 - Bribe for votes 
 - and some emissions paid out to the stakers of the gauges
 
+Last will sorta use 3,3 mechanism. Here is outline of 3,3 voting mechanism. We will create a page in docs on this. Here is just a brief introduction: 
+
 The idea behind ve(3,3) governance model is that you (as user & developer) can influence the will of the voters with a direct incentive, to direct the value(emissions) to the party providing something of want. In case of Curve, it means liquidity. In case of Last, it means deposited assets into the chain = yield-bearing assets. 
 
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
