@@ -95,7 +95,7 @@ here are a few things to keep in mind:
 - [Nimbus node guide](https://nimbus.guide/index.html)
   
 ### Recommendation from our community to run ThorChain node:
-- Input from Andro, Co-founder @ Last
+- Input from Andro, Co-founder @ Last: 
 you need good bandwidth, and a fair amount of hd space,  with a decent processor, the node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
 
 # Governance
