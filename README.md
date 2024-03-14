@@ -118,7 +118,7 @@ Different protocols have its own explanations of these terms:
 - [Voting and Gauge Weights](https://docs.convexfinance.com/convexfinance/general-information/why-convex/voting-and-gauge-weights) Convex Finance docs
 - [Gauge](https://docs.frax.finance/vefxs/gauge) Frax Finance docs explaining in more depths how Gauge works
 - [Options Liquidity Mining](https://docs.poolshark.fi/token/why-ofin) Poolshark docs, Last is utilizing OLM mechanism design for its governance
-- [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. 
+- [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. Bunni is using very similar governance model to Curve. 
 
 ### More great reads related to L2 Governance 
 These are not fully related to Gauge and Bribe, but are worth to dive into: 
