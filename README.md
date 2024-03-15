@@ -25,6 +25,9 @@ Official Last social media channels
 # Developer tools 
 Start building on Last. Everything you need to know as a developer before building with the Last stack:
 
+Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Foundry](https://book.getfoundry.sh/). You might want to try out [Altlas IDE](https://www.atlaszk.com/) to build and interact with Last contracts.[Everything you need to build dApps on Ethereum](https://scaffoldeth.io/)
+
+
 ### General reads on DeFi and Ethereum
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
 - [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
@@ -35,14 +38,13 @@ Start building on Last. Everything you need to know as a developer before buildi
 - [Solidity lang](https://soliditylang.org/) official website
 - [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
 
-Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Foundry](https://book.getfoundry.sh/). You might want to try out [Altlas IDE](https://www.atlaszk.com/) to build and interact with Last contracts.
 
 ### General Ethereum tutorials and courses
 - [Foundation of Ethereum Development stack](https://ethereum.org/en/developers/docs/) Ethereum.org
 - [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6)](https://www.youtube.com/watch?v=umepbfKp5rI) by Patrick Collins
 - [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource for all things Ethereum and Go by DCBuilder
 - [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
-- [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae)
+- [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae) blog post where you can find much more tutorials and basic tools!
 
 ### DeFi Tutorials and courses
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
