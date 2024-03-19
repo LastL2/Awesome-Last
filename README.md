@@ -49,15 +49,7 @@ Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Found
 ### DeFi Tutorials and courses
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
 
-# Start building on Last
-### Last L2 is utilizing Arbitrum Nitro: 
-- [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
-- [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
-- [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
-
-Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. Learn more about Stylus:
-- [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
-- [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
+# Start building on Last Custody Network
 
 ### Last Custody Network (LCN) is leveraging Go, a great place to start with Go:
 - [Install Go](https://go.dev/doc/install)
@@ -69,14 +61,20 @@ Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficien
 - [Overview of the Cosmos SDK](https://docs.cosmos.network/v0.50/learn/intro/overview)
 - Last is [application specific blockchain](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
 
-
 ### Last Custody Network (LCN) is leveraging the Bifroest module for its twinchain communication module:
 - [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
-
 
 ### Last Custody Network (LCN) is leveraging TSS for key management: 
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
 
+### Last L2 is utilizing Arbitrum Nitro: 
+- [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
+- [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
+- [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
+
+Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. Learn more about Stylus:
+- [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
+- [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
 
 # Node provides
 Run node for Last ⬛️ 
