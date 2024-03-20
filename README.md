@@ -49,6 +49,9 @@ Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Found
 ### DeFi Tutorials and courses
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
 
+### Build on EigenLayer
+- [EigenLayer for Developers](https://nader.substack.com/p/beyond-restaking-eigenlayer-for-developers) great article explaining EigenLayer for developers with visual graphs of how EL works
+
 # Start building on Last Custody Network
 
 ### Last Custody Network (LCN) is leveraging Go, a great place to start with Go:
