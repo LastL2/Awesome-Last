@@ -21,7 +21,7 @@ You will find more readings about Last here
 -   [Data Availability markets]()
 -   [Native swap market]()
 -   [User fee reinbursement]()
--   [L2 overview]
+-   [L2 overview]()
 - [Governance]()
 -   [Vote-escrowed governance pools]()
 -   [Gauge systems]()
