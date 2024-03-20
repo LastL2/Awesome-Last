@@ -8,62 +8,93 @@ You will find more readings about Last here
 ## About Last
 
 # Table of Contents
-- [Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
-- [Developer tool introduction](https://github.com/LastL2/Awesome-Last/blob/main/README.md#developer-tools)
-- [Start building on Last](https://github.com/LastL2/Awesome-Last/blob/main/README.md#start-building-on-last)
-- [Node providers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#node-provides)
-- [Governance](https://github.com/LastL2/Awesome-Last/blob/main/README.md#governance)
+- [Introduction to Web3 development]()
+- [DeFi Content]()
+- [Last Custody Network]()
+-   [Cosmosm SDK]()
+-   [Validators]()
+-   [Churn mechanism on Cosmos]()
+-   [Block rewards]()
+-   [ThorChain]()
+-   [Run node infrastructure for Last]()
+- [Last L2 EVM Execution Environment]()
+-   [Data Availability markets]()
+-   [Native swap market]()
+-   [User fee reinbursement]()
+-   [L2 overview]
+- [Governance]()
+-   [Vote-escrowed governance pools]()
+-   [Gauge systems]()
+-   [Bribe based voting mechanism]()
+- [Revenue Sources]()
 - [Awesome DeFi publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
+- [Official Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
+------
 
-
-# Last channels and links
-Official Last social media channels
-- [Twitter](https://twitter.com/lastdotnet)
-- [Farcaster channel](https://warpcast.com/~/channel/last)
-- [Discord](https://last.community/)
-
-# Developer tools 
-Start building on Last. Everything you need to know as a developer before building with the Last stack:
-
-Start building on Last via [Hardhat](https://hardhat.org/tutorial) and/or [Foundry](https://book.getfoundry.sh/). You might want to try out [Altlas IDE](https://www.atlaszk.com/) to build and interact with Last contracts.[Everything you need to build dApps on Ethereum](https://scaffoldeth.io/)
-
-
-### General reads on DeFi and Ethereum
-- [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
-- [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
-- [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
-
-  
-### Solidity is a great place to start! 
-- [Solidity lang](https://soliditylang.org/) official website
-- [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
-
-
-### General Ethereum tutorials and courses
+# Introduction to Web3 development
+- If you are new to development [Zero to One Web Dev Guide](https://ravi0.notion.site/Zero-to-One-Web-Dev-Guide-0b9dcd9c77b249ca8af4b9e5bd6b676e) is a place to start your journey
+- [How does Ethereum work](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) required reading to understand how Ethereum blockchain works
+-  [Web2 to Web3 🚀 — Week 2, Day 1: Scripting and Smart Contracts! Providers, Signers, and Wallets](https://www.youtube.com/watch?v=m2AJAcWk394&ab_channel=AustinGriffith) from Austin Griffith
+- [Introduction to Ethereum development](https://www.youtube.com/watch?v=MlJPjJQZtC8&t=458s&ab_channel=AustinGriffith) tutorial by Austin Griffith
+- [The Complete Guide to Full Stack Web3 Development](https://dev.to/edge-and-node/the-complete-guide-to-full-stack-web3-development-4g74) by Nader Dabit
+- [Blockchain Developer | How to learn everything you need to become one](https://patrickalphac.medium.com/blockchain-developer-how-to-learn-everything-you-need-to-become-one-1df2c2121e34)
 - [Foundation of Ethereum Development stack](https://ethereum.org/en/developers/docs/) Ethereum.org
 - [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6)](https://www.youtube.com/watch?v=umepbfKp5rI) by Patrick Collins
 - [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource for all things Ethereum and Go by DCBuilder
 - [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
 - [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae) blog post where you can find much more tutorials and basic tools!
 
-### DeFi Tutorials and courses
-- [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
-
-### Build on EigenLayer
-- [EigenLayer for Developers](https://nader.substack.com/p/beyond-restaking-eigenlayer-for-developers) great article explaining EigenLayer for developers with visual graphs of how EL works
-
-# Start building on Last Custody Network
-
-### Last Custody Network (LCN) is leveraging Go, a great place to start with Go:
+## Developer Tools
+Ethereum development environments:
+- [Hardhat](https://hardhat.org/tutorial)
+- [Foundry](https://book.getfoundry.sh/)
+Solidity: 
+- [Solidity lang](https://soliditylang.org/) official website
+- [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
+Golang: 
 - [Install Go](https://go.dev/doc/install)
 - [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
+- [Introduction into Go language](https://go.dev/doc/effective_go)
+- [Tour of Go](https://go.dev/tour/welcome/1) interactive way to try programming in Go, this is interactive window that let's you play around
+  
+## Build Ethereum based contracts
+Interactive Development Environments - Write, test, and deploy smart contracts
+- [Remix](https://remix.ethereum.org/)
+- [Altlas IDE](https://www.atlaszk.com/)
+- [ETH Build](https://eth.build/) - Educational sandbox for Web3
+- [Scaffold ETH](https://scaffoldeth.io/) - Start building contracts, play with Solidity
+- [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
+  
+# Understand DeFi and EVM Blochains
+- [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
+- [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
+- [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
 
-### Last Custody Network (LCN) is leveraging Cosmos SDK. Dive into Cosmos SDK:
+### DeFi Tools
+- [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
+
+# Last Custody Network
+Consensus Network
+
+
+### Last Custody Network (LCN) is leveraging Cosmos SDK
+CosmosSDK is a framework for building applications in Golang 
 - [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
 - [Learn to build via Cosmos SDK](https://docs.cosmos.network/)
 - [Overview of the Cosmos SDK](https://docs.cosmos.network/v0.50/learn/intro/overview)
 - Last is [application specific blockchain](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
 
+## CometBFT
+CometBFT andles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
+BTF stands for Byzantine-Fault Tolerant 
+
+
+
+
+
+
+-----------
+Editing this part: 
 ### Last Custody Network (LCN) is leveraging the Bifroest module for its twinchain communication module:
 - [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
@@ -141,4 +172,10 @@ List of amazing DeFi and Last related publications:
 # Layer 2 
 Last is EVM-based L2, here is a list of amazing L2 related reads: 
 - [Evaluating Ethereum L2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955) blog post by Matter Labs, a bit older post but still interesting to understand the progress we've made in past years!
-- [The Scaling wars](https://thedailygwei.substack.com/p/the-scaling-wars-the-daily-gwei-518) quick read on the The Daily Gwei Substack 
+- [The Scaling wars](https://thedailygwei.substack.com/p/the-scaling-wars-the-daily-gwei-518) quick read on the The Daily Gwei Substack
+
+# Last channels and links
+Official Last social media channels
+- [Twitter](https://twitter.com/lastdotnet)
+- [Farcaster channel](https://warpcast.com/~/channel/last)
+- [Discord](https://last.community/)
