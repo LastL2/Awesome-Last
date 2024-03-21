@@ -32,6 +32,7 @@ You will find more readings about Last here
 ------
 
 # Introduction to Web3 development
+Developer Introduction into development and starting your Web3 developer journey: 
 - If you are new to development [Zero to One Web Dev Guide](https://ravi0.notion.site/Zero-to-One-Web-Dev-Guide-0b9dcd9c77b249ca8af4b9e5bd6b676e) is a place to start your journey
 - [How does Ethereum work](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) required reading to understand how Ethereum blockchain works
 -  [Web2 to Web3 🚀 — Week 2, Day 1: Scripting and Smart Contracts! Providers, Signers, and Wallets](https://www.youtube.com/watch?v=m2AJAcWk394&ab_channel=AustinGriffith) from Austin Griffith
@@ -55,7 +56,10 @@ Golang:
 - [Install Go](https://go.dev/doc/install)
 - [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
 - [Introduction into Go language](https://go.dev/doc/effective_go)
-- [Tour of Go](https://go.dev/tour/welcome/1) interactive way to try programming in Go, this is interactive window that let's you play around
+- [Tour of Go](https://go.dev/tour/welcome/1) interactive way to try programming in Go, this is interactive window that let's you play with Go and test commands
+
+## Introduction into Cosmos
+- 
   
 ## Build Ethereum based contracts
 Interactive Development Environments - Write, test, and deploy smart contracts
@@ -64,33 +68,45 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [ETH Build](https://eth.build/) - Educational sandbox for Web3
 - [Scaffold ETH](https://scaffoldeth.io/) - Start building contracts, play with Solidity
 - [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
-  
+
 # Understand DeFi and EVM Blochains
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
 - [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
 - [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
 
-### DeFi Tools
+## DeFi Tools
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
+
 
 # Last Custody Network
 Consensus Network
 
+## Last Custody Network (LCN) is leveraging Cosmos SDK
+CosmosSDK is a framework for building blockchain applications in Go programming language. Cosmos SDK is used to build [Gaia](https://hub.cosmos.network/getting-started/what-is-gaia), the application implementation build for the Cosmos Hub.
+CosmosSDK provides
 
-### Last Custody Network (LCN) is leveraging Cosmos SDK
-CosmosSDK is a framework for building applications in Golang 
 - [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
-- [Learn to build via Cosmos SDK](https://docs.cosmos.network/)
-- [Overview of the Cosmos SDK](https://docs.cosmos.network/v0.50/learn/intro/overview)
-- Last is [application specific blockchain](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
+- [Learn to build via Cosmos SDK](https://docs.cosmos.network/main/learn/intro/overview)
+- Last is [application specific blockchain, here is introduction into app specific blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
 
 ## CometBFT
-CometBFT andles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
+CometBFT handles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
+
+CometBFT is the most (and only) mature BFT consensus engine in existence. It is widely used across the industry and is considered the gold standard consensus engine for building Proof-of-Stake systems.
+
 BTF stands for Byzantine-Fault Tolerant 
+CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.network/academy/2-cosmos-concepts/1-architecture.html) package for networking and consensus layers of blockchain
+- Introduction to CometBFT [CometBFT: The consensus engine that fuels the cosmos ecosystem](https://medium.com/@ali-the-curious/cometbft-the-consensus-engine-that-fuels-the-cosmos-ecosystem-ff778fcba809) blog post by Allisgar Merchant
+- CometBFT is essential component of Cosmos blockchain app architecture. It is CometBFT is a blockchain application platform which supports state machines in any language. The language-agnostic CometBFT helps developers securely and consistently replicate deterministic, finite state machines.
+- [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via domentation intoruction
+- [Blockchain architecture explaining state machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
+### Interested to dive deeper into the Cosmos ecosystem explore: 
+- [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
+- Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-
-
+# THORNode
+Last Custody Network is leveraging THORNode service of THORChain network which communicate and operate in cooperation to create a cross-chain swapping network
 
 
 -----------
