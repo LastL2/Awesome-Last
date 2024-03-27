@@ -46,9 +46,9 @@ Developer Introduction into development and starting your Web3 developer journey
 - [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae) blog post where you can find much more tutorials and basic tools!
 
 ## Developer Tools
-Ethereum development environments:
-- [Hardhat](https://hardhat.org/tutorial)
-- [Foundry](https://book.getfoundry.sh/)
+Ethereum Development environments:
+- [Hardhat](https://hardhat.org/tutorial) for developing Ethereum Contracts and dApps in JavaScript
+- [Foundry](https://book.getfoundry.sh/) manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command-line and via Solidity scripts. Supports Rust and Solidity
 Solidity: 
 - [Solidity lang](https://soliditylang.org/) official website
 - [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
@@ -57,7 +57,9 @@ Golang:
 - [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
 - [Introduction into Go language](https://go.dev/doc/effective_go)
 - [Tour of Go](https://go.dev/tour/welcome/1) interactive way to try programming in Go, this is interactive window that let's you play with Go and test commands
-
+Cosmos:
+- [Spawn](https://github.com/rollchains/spawn) development platform for building custom modular Cosmos-SDK blockchains
+- 
 ## Introduction into Cosmos
 - 
   
