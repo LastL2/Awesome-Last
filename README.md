@@ -59,9 +59,6 @@ Golang:
 - [Tour of Go](https://go.dev/tour/welcome/1) interactive way to try programming in Go, this is interactive window that let's you play with Go and test commands
 Cosmos:
 - [Spawn](https://github.com/rollchains/spawn) development platform for building custom modular Cosmos-SDK blockchains
-- 
-## Introduction into Cosmos
-- 
   
 ## Build Ethereum based contracts
 Interactive Development Environments - Write, test, and deploy smart contracts
@@ -70,6 +67,18 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [ETH Build](https://eth.build/) - Educational sandbox for Web3
 - [Scaffold ETH](https://scaffoldeth.io/) - Start building contracts, play with Solidity
 - [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
+
+## Cosmos Developer Education - Learn CosmWasm
+- [CosmWasm](https://academy.cosmwasm.com/) Academy
+- [Cosmwasm Zero to Hero](https://github.com/Callum-A/cosmwasm-zero-to-hero) Learn CosmWasm so you can build Cosmos contracts
+- [Cosmwasm lectures](https://www.inflearn.com/course/dsrv-dev-playground) in Korean
+- **[Area-52](https://area-52.io/) Master CosmWasm and smart contracts in Rust. Learn how to build your own multichain applications! Similar to Cryptozombies, fun and interactive coding lessons**
+- [Cosmology](https://cosmology.zone/) developer tools to help you build in Cosmos ecosystem
+- [Cosmos tutorials](https://cosmology.zone/learn) to learn how to build Cosmos app
+- 
+
+### Cosmos Education 
+- [Osmosis educational library](https://support.osmosis.zone/library) great source of cosmos education materials
 
 # Understand DeFi and EVM Blochains
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
