@@ -89,9 +89,8 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 ## DeFi Tools
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
 
-
 # Last Custody Network
-Consensus Network
+Consensus-based Network, acts as accounting vault for Last L2
 
 ## Last Custody Network (LCN) is leveraging Cosmos SDK
 CosmosSDK is a framework for building blockchain applications in Go programming language. Cosmos SDK is used to build [Gaia](https://hub.cosmos.network/getting-started/what-is-gaia), the application implementation build for the Cosmos Hub.
@@ -113,32 +112,22 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 - [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via domentation intoruction
 - [Blockchain architecture explaining state machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
-### Interested to dive deeper into the Cosmos ecosystem explore: 
+### Interested in diving deeper into the Cosmos ecosystem explore: 
 - [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
 - Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-# THORNode
-Last Custody Network is leveraging THORNode service of THORChain network which communicate and operate in cooperation to create a cross-chain swapping network
-
-
------------
-Editing this part: 
 ### Last Custody Network (LCN) is leveraging the Bifroest module for its twinchain communication module:
 - [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
 ### Last Custody Network (LCN) is leveraging TSS for key management: 
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
 
-### Last L2 is utilizing Arbitrum Nitro: 
-- [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
-- [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
-- [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
+# LCN Validators 
+Last Custody Network is leveraging THORNode service of THORChain network which communicate and operate in cooperation to create a cross-chain swapping network. We will be utilising THORChain minimaly in LAST Protocol design. 
+- [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
+- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validatos
 
-Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. Learn more about Stylus:
-- [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
-- [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
-
-# Node provides
+## Node provides
 Run node for Last ⬛️ 
 
 Guidelines:
@@ -159,18 +148,33 @@ here are a few things to keep in mind:
 - Input from Andro, Co-founder @ Last: 
 you need good bandwidth, and a fair amount of HDD space,  with a decent processor. The node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
 
-# Governance
-Last is using the Gauge and Bribe system for its governance. You can learn more about Gauge and Bribes here:
+# Last L2 
+Is utilizing Arbitrum Nitro stack
+- [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
+- [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
+- [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
+
+## Stylus framework 
+Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, which can lead to faster and cheaper smart contracts.
+ Learn more about Stylus:
+- [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
+- [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
+- [Stylus VM and Fraud Prover](https://github.com/OffchainLabs/stylus)
+- [Arbitrum Stylus Paradigm Shift](https://medium.com/@estheraladioche569/arbitrum-stylus-paradigm-shift-95e62c035a95)
+
+# veGovernance
+Last is using ve style Governance system based on Gauges and Bribes for its governance. 
 
 Last is utilising ve(3,3) system which is composed of 3 parts = 
 - Gauge system
 - Bribe for votes 
-- and some emissions paid out to the stakers of the gauges
+- and some emissions paid out to the stakes of the gauges
 
 Last will sorta use 3,3 mechanism. Here is outline of 3,3 voting mechanism. We will create a page in docs on this. Here is just a brief introduction: 
 
 The idea behind ve(3,3) governance model is that you (as user & developer) can influence the will of the voters with a direct incentive, to direct the value(emissions) to the party providing something of want. In case of Curve, it means liquidity. In case of Last, it means deposited assets into the chain = yield-bearing assets. 
 
+- [ve(3,3](https://andrecronje.medium.com/ve-3-3-44466eaa088b)
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
 
 Different protocols have its own explanations of these terms:
@@ -182,9 +186,10 @@ Different protocols have its own explanations of these terms:
 - [Options Liquidity Mining](https://docs.poolshark.fi/token/why-ofin) Poolshark docs, Last is utilizing OLM mechanism design for its governance
 - [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. Bunni is using very similar governance model to Curve. 
 
-### More great reads related to L2 Governance 
-These are not fully related to Gauge and Bribe, but are worth to dive into: 
-- [Governance Decides Where Ethereum Transacts: The L2 Governance Race](https://tally.mirror.xyz/QZNVKjupNZmSUsY9R2sV5_vA-qe1fsCMW2hlnZ-5lEg) Blog post by Tally
+# DeFi primitives 
+- [Solidly — A High-Level Overview](https://medium.com/@seraph333/solidly-a-high-level-overview-aa5420a79acc)
+
+
 
 # Awesome DeFi publications & Tutorials
 List of amazing DeFi and Last related publications:
@@ -201,6 +206,8 @@ List of amazing DeFi and Last related publications:
 Last is EVM-based L2, here is a list of amazing L2 related reads: 
 - [Evaluating Ethereum L2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955) blog post by Matter Labs, a bit older post but still interesting to understand the progress we've made in past years!
 - [The Scaling wars](https://thedailygwei.substack.com/p/the-scaling-wars-the-daily-gwei-518) quick read on the The Daily Gwei Substack
+- [Governance Decides Where Ethereum Transacts: The L2 Governance Race](https://tally.mirror.xyz/QZNVKjupNZmSUsY9R2sV5_vA-qe1fsCMW2hlnZ-5lEg) Blog post by Tally
+
 
 # Last channels and links
 Official Last social media channels
