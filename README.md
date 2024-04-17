@@ -90,15 +90,20 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
 
 # Last Custody Network
-Consensus-based Network, acts as accounting vault for Last L2
+LCN acts as the accounting vault of the LAST protocol. LCN utilizes Cosmos, Ethereum and Bitcoin as multichain yield-bearing protocol. Initial protocol design is utilising EigenPod contracts that Node operators utilize. Consensus-based Network acts as accounting vault for Last L2.
+# LCN Infrastructure
 
-## Last Custody Network (LCN) is leveraging Cosmos SDK
+## Cosmos SDK
+LCN is using CosmosSDK as state machine for LCN 
 CosmosSDK is a framework for building blockchain applications in Go programming language. Cosmos SDK is used to build [Gaia](https://hub.cosmos.network/getting-started/what-is-gaia), the application implementation build for the Cosmos Hub.
-CosmosSDK provides
 
+"Cosmos SDK modules can be seen as little state-machines within the state-machine. They generally define a subset of the state using one or more KVStores in the main multistore, as well as a subset of message types. These messages are routed by one of the main components of Cosmos SDK core, BaseApp, to a module Protobuf Msg service that defines them." - [CosmosSDK Modules](https://docs.cosmos.network/v0.50/build/building-modules/intro)
 - [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
 - [Learn to build via Cosmos SDK](https://docs.cosmos.network/main/learn/intro/overview)
 - Last is [application specific blockchain, here is introduction into app specific blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
+- [Anatomy of a Cosmos SDK Application](https://docs.cosmos.network/v0.50/learn/beginner/app-anatomy)
+- [Transaction Lifecycle of CosmosSDK Application](https://docs.cosmos.network/v0.50/learn/beginner/tx-lifecycle)
+- [Building Scalable Applications with the Cosmos SDK](https://medium.com/@jefferyokesamuel1/building-scalable-applications-with-the-cosmos-sdk-6dc56ae28643) introduction alike post about Cosmos SDK
 
 ## CometBFT
 CometBFT handles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
@@ -122,14 +127,19 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 ### Last Custody Network (LCN) is leveraging TSS for key management: 
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
 
-# LCN Validators 
-Last Custody Network is leveraging THORNode service of THORChain network which communicate and operate in cooperation to create a cross-chain swapping network. We will be utilising THORChain minimaly in LAST Protocol design. 
+## Staked assets on LCN
+- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e)
+- [EigenPods](https://docs.eigenlayer.xyz/eigenlayer/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/)
+
+
+## LCN Node Operators
+The Last Custody Network is leveraging the THORNode service of the THORChain network, which communicates and operates in cooperation to create a cross-chain swapping network. We will be utilising THORChain minimally in the LAST Protocol design. 
 - [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
-- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validatos
+- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validator
+
 
 ## Node provides
 Run node for Last ⬛️ 
-
 Guidelines:
 - [Spin up your own Ethereum node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) by @nhsz
 - [How to deploy a ThorChain node on Linux](https://www.blockmeadow.com/how-to-deploy-a-thorchain-node-on-linux/) by BlockMeadow
@@ -144,7 +154,8 @@ here are a few things to keep in mind:
 3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
 - [Nimbus node guide](https://nimbus.guide/index.html)
   
-### Recommendation from our community to run ThorChain node:
+### Recommendation from our community to run THORNode:
+We will utilize THORNode protocol designs for our LCN infrastructure
 - Input from Andro, Co-founder @ Last: 
 you need good bandwidth, and a fair amount of HDD space,  with a decent processor. The node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
 
