@@ -201,10 +201,14 @@ Different protocols have its own explanations of these terms:
 - [Solidly — A High-Level Overview](https://medium.com/@seraph333/solidly-a-high-level-overview-aa5420a79acc)
 
 
-
-# Awesome DeFi publications & Tutorials
+# Education Hub
+## Introduction into DeFi 
+List of amazing DeFi introduction articles and videos: 
+- [What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)](https://www.youtube.com/watch?v=k9HYC0EJU6E&ab_channel=Finematics) YouTube video
+- [What is DeFi and How it works](https://chain.link/education/defi) blog post
+- 
+## Awesome DeFi publications & Tutorials
 List of amazing DeFi and Last related publications:
-
 - [Stuffed Blocks](https://tonysheng.substack.com/archive) Substack by Tony Sheng
 - [Kerman Kohli](https://kermankohli.substack.com/) Substack full of amazing DeFi resources!
 - [Kerman Kohli YouTube](https://www.youtube.com/@DeFiWeekly/videos) short video explanations
@@ -213,7 +217,7 @@ List of amazing DeFi and Last related publications:
 - [Layer 2 Weekly Roundup](https://layer2roundup.substack.com/) Substack by Scroll community manager of updates about L2s out there
 - [The Daily Gwei](https://www.youtube.com/thedailygwei) Daily YouTube podcast about the ecosystem
 
-# Layer 2 
+## Layer 2 
 Last is EVM-based L2, here is a list of amazing L2 related reads: 
 - [Evaluating Ethereum L2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955) blog post by Matter Labs, a bit older post but still interesting to understand the progress we've made in past years!
 - [The Scaling wars](https://thedailygwei.substack.com/p/the-scaling-wars-the-daily-gwei-518) quick read on the The Daily Gwei Substack
