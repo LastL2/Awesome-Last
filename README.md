@@ -25,7 +25,7 @@ You will find more readings about Last here
 - [Governance]()
 -   [Vote-escrowed governance pools]()
 -   [Gauge systems]()
--   [Bribe based voting mechanism]()
+-   [Bribe-based voting mechanism]()
 - [Revenue Sources]()
 - [Awesome DeFi publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
 - [Official Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
@@ -48,7 +48,7 @@ Developer Introduction into development and starting your Web3 developer journey
 ## Developer Tools
 Ethereum Development environments:
 - [Hardhat](https://hardhat.org/tutorial) for developing Ethereum Contracts and dApps in JavaScript
-- [Foundry](https://book.getfoundry.sh/) manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command-line and via Solidity scripts. Supports Rust and Solidity
+- [Foundry](https://book.getfoundry.sh/) manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command line and via Solidity scripts. Supports Rust and Solidity
 Solidity: 
 - [Solidity lang](https://soliditylang.org/) official website
 - [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
@@ -56,7 +56,7 @@ Golang:
 - [Install Go](https://go.dev/doc/install)
 - [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
 - [Introduction into Go language](https://go.dev/doc/effective_go)
-- [Tour of Go](https://go.dev/tour/welcome/1) interactive way to try programming in Go, this is interactive window that let's you play with Go and test commands
+- [Tour of Go](https://go.dev/tour/welcome/1) is an interactive way to try programming in Go. This is an interactive window that lets you play with Go and test commands
 Cosmos:
 - [ELI5: What is IBC](https://medium.com/the-interchain-foundation/eli5-what-is-ibc-def44d7b5b4c)
 - [Spawn](https://github.com/rollchains/spawn) development platform for building custom modular Cosmos-SDK blockchains
@@ -74,7 +74,7 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [Cosmwasm Zero to Hero](https://github.com/Callum-A/cosmwasm-zero-to-hero) Learn CosmWasm so you can build Cosmos contracts
 - [Cosmwasm lectures](https://www.inflearn.com/course/dsrv-dev-playground) in Korean
 - **[Area-52](https://area-52.io/) Master CosmWasm and smart contracts in Rust. Learn how to build your own multichain applications! Similar to Cryptozombies, fun and interactive coding lessons**
-- [Cosmology](https://cosmology.zone/) developer tools to help you build in Cosmos ecosystem
+- [Cosmology](https://cosmology.zone/) developer tools to help you build in the Cosmos ecosystem
 - [Cosmos tutorials](https://cosmology.zone/learn) to learn how to build Cosmos app
 - 
 
@@ -100,7 +100,7 @@ CosmosSDK is a framework for building blockchain applications in Go programming 
 "Cosmos SDK modules can be seen as little state-machines within the state-machine. They generally define a subset of the state using one or more KVStores in the main multistore, as well as a subset of message types. These messages are routed by one of the main components of Cosmos SDK core, BaseApp, to a module Protobuf Msg service that defines them." - [CosmosSDK Modules](https://docs.cosmos.network/v0.50/build/building-modules/intro)
 - [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
 - [Learn to build via Cosmos SDK](https://docs.cosmos.network/main/learn/intro/overview)
-- Last is [application specific blockchain, here is introduction into app specific blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
+- Last is [application-specific blockchain, here is introduction to app specific blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
 - [Anatomy of a Cosmos SDK Application](https://docs.cosmos.network/v0.50/learn/beginner/app-anatomy)
 - [Transaction Lifecycle of CosmosSDK Application](https://docs.cosmos.network/v0.50/learn/beginner/tx-lifecycle)
 - [Building Scalable Applications with the Cosmos SDK](https://medium.com/@jefferyokesamuel1/building-scalable-applications-with-the-cosmos-sdk-6dc56ae28643) introduction alike post about Cosmos SDK
@@ -113,15 +113,15 @@ CometBFT is the most (and only) mature BFT consensus engine in existence. It is 
 BTF stands for Byzantine-Fault Tolerant 
 CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.network/academy/2-cosmos-concepts/1-architecture.html) package for networking and consensus layers of blockchain
 - Introduction to CometBFT [CometBFT: The consensus engine that fuels the cosmos ecosystem](https://medium.com/@ali-the-curious/cometbft-the-consensus-engine-that-fuels-the-cosmos-ecosystem-ff778fcba809) blog post by Allisgar Merchant
-- CometBFT is essential component of Cosmos blockchain app architecture. It is CometBFT is a blockchain application platform which supports state machines in any language. The language-agnostic CometBFT helps developers securely and consistently replicate deterministic, finite state machines.
-- [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via domentation intoruction
+- CometBFT is essential component of Cosmos blockchain app architecture. It is CometBFT is a blockchain application platform which supports state machines in any language. The language-agnostic CometBFT helps developers securely and consistently replicate deterministic, finite-state machines.
+- [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via documentation intoruction
 - [Blockchain architecture explaining state machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
 ### Interested in diving deeper into the Cosmos ecosystem explore: 
 - [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
 - Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-### Last Custody Network (LCN) is leveraging the Bifroest module for its twinchain communication module:
+### Last Custody Network (LCN) is leveraging the Bifroest module for its twin chain communication module:
 - [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
 ### Last Custody Network (LCN) is leveraging TSS for key management: 
@@ -146,11 +146,11 @@ Guidelines:
 - [Run Thorchain node](https://gitlab.com/thorchain/thornode/-/blob/develop/README.md#setup) by Official Thorchain node repo. Tutorial is Linux and Mac OS compatible
 - [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) by Bitcoin.org
 
-### Recommendation from our community to run Ethereum node: 
+### Recommendation from our community to run the Ethereum node: 
 - Input from Brian, Co-founder @ Ansybl.io
 here are a few things to keep in mind: 
-1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum but the more the better (especially now that we’ve got blobs live on mainnet). If you're running in a cloud environment, most drives are network-attached and will most likely be your bottleneck when it comes to sync times/rpc response time.
-2. Reth is fast becoming my favorite execution client. Fast, configurable and takes less disk space
+1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum, but the more, the better (especially now that we’ve got blobs live on the mainnet). If you're running in a cloud environment, most drives are network-attached and will most likely be your bottleneck when it comes to sync times/rpc response time.
+2. Reth is fast becoming my favorite execution client. Fast, configurable, and takes less disk space
 3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
 - [Nimbus node guide](https://nimbus.guide/index.html)
   
@@ -166,7 +166,7 @@ Is utilizing Arbitrum Nitro stack
 - [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
 
 ## Stylus framework 
-Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient compared to other frameworks. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, which can lead to faster and cheaper smart contracts.
+Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient than other frameworks. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, which can lead to faster and cheaper smart contracts.
  Learn more about Stylus:
 - [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
 - [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
@@ -187,6 +187,7 @@ The idea behind ve(3,3) governance model is that you (as user & developer) can i
 
 - [ve(3,3](https://andrecronje.medium.com/ve-3-3-44466eaa088b)
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
+- [on Solidly](https://medium.com/@vedao.alt/on-solidly-60f6481b26fd) blog post outlining how Solidly works, it highly influenced how LAST ve Governance works
 
 Different protocols have its own explanations of these terms:
 - [Gauges overview](https://docs.curve.fi/curve_dao/liquidity-gauge-and-minting-crv/gauges/overview/) by Curve docs
@@ -195,7 +196,8 @@ Different protocols have its own explanations of these terms:
 - [Voting and Gauge Weights](https://docs.convexfinance.com/convexfinance/general-information/why-convex/voting-and-gauge-weights) Convex Finance docs
 - [Gauge](https://docs.frax.finance/vefxs/gauge) Frax Finance docs explaining in more depths how Gauge works
 - [Options Liquidity Mining](https://docs.poolshark.fi/token/why-ofin) Poolshark docs, Last is utilizing OLM mechanism design for its governance
-- [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. Bunni is using very similar governance model to Curve. 
+- [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. Bunni is using very similar governance model to Curve.
+- [A Closer Look at ve(3,3)](https://medium.com/vesperfinance/a-closer-look-at-ve-3-3-522add01b4b5) by Vesper Finance
 
 # DeFi primitives 
 - [Solidly — A High-Level Overview](https://medium.com/@seraph333/solidly-a-high-level-overview-aa5420a79acc)
