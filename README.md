@@ -187,6 +187,7 @@ The idea behind ve(3,3) governance model is that you (as user & developer) can i
 
 - [ve(3,3](https://andrecronje.medium.com/ve-3-3-44466eaa088b)
 - [Gauges: The Foundational Governance Innovation of DeFi](https://yourcryptolibrary.com/blockchain/gauges-the-foundational-governance-innovation-of-defi/) Blog post by yourcryptolibrary
+- - [Solidly — A High-Level Overview](https://medium.com/@seraph333/solidly-a-high-level-overview-aa5420a79acc)
 - [on Solidly](https://medium.com/@vedao.alt/on-solidly-60f6481b26fd) blog post outlining how Solidly works, it highly influenced how LAST ve Governance works
 
 Different protocols have its own explanations of these terms:
@@ -198,9 +199,9 @@ Different protocols have its own explanations of these terms:
 - [Options Liquidity Mining](https://docs.poolshark.fi/token/why-ofin) Poolshark docs, Last is utilizing OLM mechanism design for its governance
 - [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. Bunni is using very similar governance model to Curve.
 - [A Closer Look at ve(3,3)](https://medium.com/vesperfinance/a-closer-look-at-ve-3-3-522add01b4b5) by Vesper Finance
+- 
 
-# DeFi primitives 
-- [Solidly — A High-Level Overview](https://medium.com/@seraph333/solidly-a-high-level-overview-aa5420a79acc)
+# DeFi primitives and applications ecosystem
 
 
 # Education Hub
@@ -208,7 +209,7 @@ Different protocols have its own explanations of these terms:
 List of amazing DeFi introduction articles and videos: 
 - [What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)](https://www.youtube.com/watch?v=k9HYC0EJU6E&ab_channel=Finematics) YouTube video
 - [What is DeFi and How it works](https://chain.link/education/defi) blog post
-- 
+  
 ## Awesome DeFi publications & Tutorials
 List of amazing DeFi and Last related publications:
 - [Stuffed Blocks](https://tonysheng.substack.com/archive) Substack by Tony Sheng
@@ -218,13 +219,11 @@ List of amazing DeFi and Last related publications:
 - [THORChain University](https://crypto-university.medium.com/) Great blog posts about THORChain which is apart of Last protocol design
 - [Layer 2 Weekly Roundup](https://layer2roundup.substack.com/) Substack by Scroll community manager of updates about L2s out there
 - [The Daily Gwei](https://www.youtube.com/thedailygwei) Daily YouTube podcast about the ecosystem
-
-## Layer 2 
-Last is EVM-based L2, here is a list of amazing L2 related reads: 
 - [Evaluating Ethereum L2 Scaling Solutions: A Comparison Framework](https://blog.matter-labs.io/evaluating-ethereum-l2-scaling-solutions-a-comparison-framework-b6b2f410f955) blog post by Matter Labs, a bit older post but still interesting to understand the progress we've made in past years!
+
+List of amazing L2 and Scaling related blogs: 
 - [The Scaling wars](https://thedailygwei.substack.com/p/the-scaling-wars-the-daily-gwei-518) quick read on the The Daily Gwei Substack
 - [Governance Decides Where Ethereum Transacts: The L2 Governance Race](https://tally.mirror.xyz/QZNVKjupNZmSUsY9R2sV5_vA-qe1fsCMW2hlnZ-5lEg) Blog post by Tally
-
 
 # Last channels and links
 Official Last social media channels
