@@ -105,7 +105,8 @@ CosmosSDK is a framework for building blockchain applications in Go programming 
 - [Transaction Lifecycle of CosmosSDK Application](https://docs.cosmos.network/v0.50/learn/beginner/tx-lifecycle)
 - [Building Scalable Applications with the Cosmos SDK](https://medium.com/@jefferyokesamuel1/building-scalable-applications-with-the-cosmos-sdk-6dc56ae28643) introduction alike post about Cosmos SDK
 
-## CometBFT
+### CometBFT
+CometBFT module will be apart of the Cosmos SDK stack 
 CometBFT handles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
 
 CometBFT is the most (and only) mature BFT consensus engine in existence. It is widely used across the industry and is considered the gold standard consensus engine for building Proof-of-Stake systems.
@@ -121,21 +122,21 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 - [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
 - Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-### Last Custody Network (LCN) is leveraging the Bifroest module for its twin chain communication module:
+### Bifroest module
+Last Custody Network (LCN) is leveraging the Bifroest module for its twin chain communication module and cross chain swaps
 - [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
+  ## LCN Node Operators
+The Last Custody Network is leveraging the THORNode service of the THORChain network, which communicates and operates in cooperation to create a cross-chain swapping network. We will be utilising THORChain minimally in the LAST Protocol design. 
+- [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
+- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validator
 
-### Last Custody Network (LCN) is leveraging TSS for key management: 
+### Threshold Signature Schemes
+Will be used on LCN and is apart of the Validator voting design strucutre
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
 
 ## Staked assets on LCN
 - [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e)
 - [EigenPods](https://docs.eigenlayer.xyz/eigenlayer/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/)
-
-
-## LCN Node Operators
-The Last Custody Network is leveraging the THORNode service of the THORChain network, which communicates and operates in cooperation to create a cross-chain swapping network. We will be utilising THORChain minimally in the LAST Protocol design. 
-- [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
-- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validator
 
 
 ## Node provides
