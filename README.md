@@ -8,15 +8,15 @@ You will find more readings about Last here
 ## About Last
 
 # Table of Contents
-- [Introduction to Web3 development]()
--   [Developer Tools]()
--   [Build on Ethereum]()
--   [Build on Cosmos]()
--   [Become DeFi developer]()
-- [Utility Chain]()
--   [Cosmos SDK]()
--   [Comet BFT]()
--   [Validators]()
+- [Introduction to Web3 development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
+-   [Developer Tools](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#developer-tools)
+-   [Build on Ethereum](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-ethereum)
+-   [Build on Cosmos](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-cosmos)
+-   [Become DeFi developer](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#become-defi-developer)
+- [Utility Chain](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain)
+-   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
+-   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
+-   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
 -   [Churn mechanism on Cosmos]()
 -   [Block rewards]()
 -   [Bifrost module]()
@@ -72,6 +72,10 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [ETH Build](https://eth.build/) - Educational sandbox for Web3
 - [Scaffold ETH](https://scaffoldeth.io/) - Start building contracts, play with Solidity
 - [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
+- [Crypto Zombies](https://cryptozombies.io/) Learn to write smart contracts by making your own crypto-collectibles game
+- [ETH.Build](https://eth.build/) An Educational Sandbox For Web3... And Much More
+- [Introduction to Solidity smart contracts](https://blog.paulmcaviney.ca/hello-world) blog post by Paul McAviney
+- [Solidity School](https://github.com/Aniket-Engg/solidity-school) The first place for early developers to learn Solidity
 
 ## Build on Cosmos
 Cosmos developer environments and learning resources
@@ -123,19 +127,16 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
  # Utility Chain Node Operators
 Every Utility Chain Node Operator is required to run Ethereum and Bitcoin full nodes. 
 The Last Utility Chain leverages some of the THORChain and THORNode architecture designs.
-- [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
-- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validator
-- 
-### Bifroest module
-Utility chain is leveraging the Bifroest module for its twin-chain communication module and cross-chain swaps
-- [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
-### Threshold Signature Schemes, Chrun module, Node bonding design
-TSS will be used on Last and is apart of the Validator voting design structure
+### Threshold Signature Schemes, Chrun module, Node bonding design, Bifroest module
+TSS will be used on Last Utility chain and is apart of the Validator voting design structure. Utility chain is leveraging the Bifroest module for its twin-chain communication module and cross-chain swaps
+- [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
+- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) Utility chain will have 1 week epoch for validator
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
 - [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b)
 - [Under the Hood: Nodes](https://thorchain-university.medium.com/under-the-hood-nodes-85a7da3af3b1) Explains node bonding mechanism
 - [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b)
+- [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
 
 ## Run node for LAST
