@@ -17,20 +17,13 @@ You will find more readings about Last here
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--   [Churn mechanism on Cosmos]()
--   [Block rewards]()
--   [Bifrost module]()
--   [Run node infrastructure for Last]()
-- [Last L2 EVM Execution Environment]()
--   [Data Availability markets]()
--   [Native swap market]()
--   [User fee reinbursement]()
--   [L2 overview]()
-- [Governance]()
--   [Vote-escrowed governance pools]()
--   [Gauge systems]()
--   [Bribe-based voting mechanism]()
-- [Revenue Sources]()
+-   [Threshold Signature Schemes, Chrun module, Node bonding design, Bifroest module](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#threshold-signature-schemes-chrun-module-node-bonding-design-bifroest-module)
+-   [Run node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
+- [Staked assets on LAST](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets-on-last)
+-   [LAST L2](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#last-l2)
+-   [EVM+ Stylus framework](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#stylus-framework)
+- [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
+- [Introduction into DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-into-defi)
 - [Awesome DeFi publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
 - [Official Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
 ------
@@ -160,12 +153,12 @@ Staked assets are a huge part of LAST protocol design
 - [Staking Overview](https://docs.rocketpool.net/guides/staking/overview) by Rocketpool
 
 # Last L2 
-Is utilizing Arbitrum Nitro stack
+LAST L2 is Application layer chain built with the Arbitrum Nitro stack
 - [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
 - [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
 - [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
 
-## Stylus framework 
+## EVM+ Stylus framework 
 Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient than other frameworks. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, leading to faster and cheaper smart contracts.
  Learn more about Stylus:
 - [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
@@ -199,12 +192,7 @@ Different protocols have its own explanations of these terms:
 - [Options Liquidity Mining](https://docs.poolshark.fi/token/why-ofin) Poolshark docs, Last is utilizing OLM mechanism design for its governance
 - [Deploying a gauge](https://docs.bunni.pro/docs/guides/deploy-gauge) Bunni docs, this is an example of how to deploy gauge by Bunni. Bunni is using very similar governance model to Curve.
 - [A Closer Look at ve(3,3)](https://medium.com/vesperfinance/a-closer-look-at-ve-3-3-522add01b4b5) by Vesper Finance
-- 
 
-# DeFi primitives and applications ecosystem
-
-
-# Education Hub
 ## Introduction into DeFi 
 List of amazing DeFi introduction articles and videos: 
 - [What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)](https://www.youtube.com/watch?v=k9HYC0EJU6E&ab_channel=Finematics) YouTube video
