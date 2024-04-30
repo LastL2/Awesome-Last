@@ -9,13 +9,17 @@ You will find more readings about Last here
 
 # Table of Contents
 - [Introduction to Web3 development]()
-- [DeFi Content]()
-- [Last Custody Network]()
--   [Cosmosm SDK]()
+-   [Developer Tools]()
+-   [Build on Ethereum]()
+-   [Build on Cosmos]()
+-   [Become DeFi developer]()
+- [Utility Chain]()
+-   [Cosmos SDK]()
+-   [Comet BFT]()
 -   [Validators]()
 -   [Churn mechanism on Cosmos]()
 -   [Block rewards]()
--   [ThorChain]()
+-   [Bifrost module]()
 -   [Run node infrastructure for Last]()
 - [Last L2 EVM Execution Environment]()
 -   [Data Availability markets]()
@@ -55,13 +59,13 @@ Solidity:
 Golang: 
 - [Install Go](https://go.dev/doc/install)
 - [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
-- [Introduction into Go language](https://go.dev/doc/effective_go)
+- [Introduction to Go language](https://go.dev/doc/effective_go)
 - [Tour of Go](https://go.dev/tour/welcome/1) is an interactive way to try programming in Go. This is an interactive window that lets you play with Go and test commands
 Cosmos:
 - [ELI5: What is IBC](https://medium.com/the-interchain-foundation/eli5-what-is-ibc-def44d7b5b4c)
 - [Spawn](https://github.com/rollchains/spawn) development platform for building custom modular Cosmos-SDK blockchains
   
-## Build Ethereum based contracts
+## Build on Ethereum 
 Interactive Development Environments - Write, test, and deploy smart contracts
 - [Remix](https://remix.ethereum.org/)
 - [Altlas IDE](https://www.atlaszk.com/)
@@ -69,35 +73,34 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [Scaffold ETH](https://scaffoldeth.io/) - Start building contracts, play with Solidity
 - [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
 
-## Cosmos Developer Education - Learn CosmWasm
+## Build on Cosmos
+Cosmos developer environments and learning resources
 - [CosmWasm](https://academy.cosmwasm.com/) Academy
 - [Cosmwasm Zero to Hero](https://github.com/Callum-A/cosmwasm-zero-to-hero) Learn CosmWasm so you can build Cosmos contracts
 - [Cosmwasm lectures](https://www.inflearn.com/course/dsrv-dev-playground) in Korean
 - **[Area-52](https://area-52.io/) Master CosmWasm and smart contracts in Rust. Learn how to build your own multichain applications! Similar to Cryptozombies, fun and interactive coding lessons**
 - [Cosmology](https://cosmology.zone/) developer tools to help you build in the Cosmos ecosystem
 - [Cosmos tutorials](https://cosmology.zone/learn) to learn how to build Cosmos app
-- 
-
-### Cosmos Education 
 - [Osmosis educational library](https://support.osmosis.zone/library) great source of cosmos education materials
+Deep dive into Cosmos ecosystem: 
+- [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
+- Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-# Understand DeFi and EVM Blochains
+# Become DeFi developer
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
 - [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
 - [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
-
-## DeFi Tools
 - [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
 
-# Last Custody Network
-LCN acts as the accounting vault of the LAST protocol. LCN utilizes Cosmos, Ethereum and Bitcoin as multichain yield-bearing protocol. Initial protocol design is utilising EigenPod contracts that Node operators utilize. Consensus-based Network acts as accounting vault for Last L2.
-# LCN Infrastructure
+# Utility Chain
+The Last Custody Network (LCN) the Utility Chain of Twinchain protocol design of LAST Network. Utility chain acts as accounting layer for LAST L2. The primary function is to handle operations such as bridge and yield-bearing accounting.
+LCN utilizes Cosmos, Ethereum, and Bitcoin as multichain yield-bearing protocols. The utility chain is used only by Node Operators
 
 ## Cosmos SDK
-LCN is using CosmosSDK as state machine for LCN 
+CosmosSDK acts as the state machine for LCN 
 CosmosSDK is a framework for building blockchain applications in Go programming language. Cosmos SDK is used to build [Gaia](https://hub.cosmos.network/getting-started/what-is-gaia), the application implementation build for the Cosmos Hub.
 
-"Cosmos SDK modules can be seen as little state-machines within the state-machine. They generally define a subset of the state using one or more KVStores in the main multistore, as well as a subset of message types. These messages are routed by one of the main components of Cosmos SDK core, BaseApp, to a module Protobuf Msg service that defines them." - [CosmosSDK Modules](https://docs.cosmos.network/v0.50/build/building-modules/intro)
+- [CosmosSDK Modules](https://docs.cosmos.network/v0.50/build/building-modules/intro) can be seen as little state-machines within the state-machine. They generally define a subset of the state using one or more KVStores in the main multistore and a subset of message types. These messages are routed by one of the main components of Cosmos SDK core, BaseApp, to a module Protobuf Msg service that defines them. 
 - [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
 - [Learn to build via Cosmos SDK](https://docs.cosmos.network/main/learn/intro/overview)
 - Last is [application-specific blockchain, here is introduction to app specific blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
@@ -106,45 +109,39 @@ CosmosSDK is a framework for building blockchain applications in Go programming 
 - [Building Scalable Applications with the Cosmos SDK](https://medium.com/@jefferyokesamuel1/building-scalable-applications-with-the-cosmos-sdk-6dc56ae28643) introduction alike post about Cosmos SDK
 
 ### CometBFT
-CometBFT module will be apart of the Cosmos SDK stack 
-CometBFT handles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
+CometBFT module will be a part of the Cosmos SDK stack. CometBFT handles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
 
 CometBFT is the most (and only) mature BFT consensus engine in existence. It is widely used across the industry and is considered the gold standard consensus engine for building Proof-of-Stake systems.
 
 BTF stands for Byzantine-Fault Tolerant 
 CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.network/academy/2-cosmos-concepts/1-architecture.html) package for networking and consensus layers of blockchain
 - Introduction to CometBFT [CometBFT: The consensus engine that fuels the cosmos ecosystem](https://medium.com/@ali-the-curious/cometbft-the-consensus-engine-that-fuels-the-cosmos-ecosystem-ff778fcba809) blog post by Allisgar Merchant
-- CometBFT is essential component of Cosmos blockchain app architecture. It is CometBFT is a blockchain application platform which supports state machines in any language. The language-agnostic CometBFT helps developers securely and consistently replicate deterministic, finite-state machines.
-- [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via documentation intoruction
+- CometBFT is essential component of Cosmos blockchain app architecture. CometBFT is a blockchain application platform supporting state machines in any language. The language-agnostic CometBFT helps developers securely and consistently replicate deterministic, finite-state machines.
+- [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via documentation introduction
 - [Blockchain architecture explaining state machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
-### Interested in diving deeper into the Cosmos ecosystem explore: 
-- [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
-- Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
-
-### Bifroest module
-Last Custody Network (LCN) is leveraging the Bifroest module for its twin chain communication module and cross chain swaps
-- [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
-  ## LCN Node Operators
-The Last Custody Network is leveraging the THORNode service of the THORChain network, which communicates and operates in cooperation to create a cross-chain swapping network. We will be utilising THORChain minimally in the LAST Protocol design. 
+ # Utility Chain Node Operators
+Every Utility Chain Node Operator is required to run Ethereum and Bitcoin full nodes. 
+The Last Utility Chain leverages some of the THORChain and THORNode architecture designs.
 - [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
 - [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) LCN will have 1 week epoch for validator
+- 
+### Bifroest module
+Utility chain is leveraging the Bifroest module for its twin-chain communication module and cross-chain swaps
+- [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
-### Threshold Signature Schemes
-Will be used on LCN and is apart of the Validator voting design strucutre
+### Threshold Signature Schemes, Chrun module, Node bonding design
+TSS will be used on Last and is apart of the Validator voting design structure
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
+- [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b)
+- [Under the Hood: Nodes](https://thorchain-university.medium.com/under-the-hood-nodes-85a7da3af3b1) Explains node bonding mechanism
+- [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b)
 
-## Staked assets on LCN
-- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e)
-- [EigenPods](https://docs.eigenlayer.xyz/eigenlayer/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/)
 
-
-## Node provides
-Run node for Last ⬛️ 
+## Run node for LAST
+Run node for LAST ⬛️ 
 Guidelines:
 - [Spin up your own Ethereum node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) by @nhsz
-- [How to deploy a ThorChain node on Linux](https://www.blockmeadow.com/how-to-deploy-a-thorchain-node-on-linux/) by BlockMeadow
-- [Run Thorchain node](https://gitlab.com/thorchain/thornode/-/blob/develop/README.md#setup) by Official Thorchain node repo. Tutorial is Linux and Mac OS compatible
 - [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) by Bitcoin.org
 
 ### Recommendation from our community to run the Ethereum node: 
@@ -153,12 +150,13 @@ here are a few things to keep in mind:
 1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum, but the more, the better (especially now that we’ve got blobs live on the mainnet). If you're running in a cloud environment, most drives are network-attached and will most likely be your bottleneck when it comes to sync times/rpc response time.
 2. Reth is fast becoming my favorite execution client. Fast, configurable, and takes less disk space
 3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
-- [Nimbus node guide](https://nimbus.guide/index.html)
-  
-### Recommendation from our community to run THORNode:
-We will utilize THORNode protocol designs for our LCN infrastructure
-- Input from Andro, Co-founder @ Last: 
-you need good bandwidth, and a fair amount of HDD space,  with a decent processor. The node requirements aren't like your typical cosmos chains where they are fairly light(minus bandwidth)
+- [Nimbus node guide](https://nimbus.guide/index.html)  
+
+## Staked assets on LAST
+Staked assets are a huge part of LAST protocol design
+- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e)
+- [EigenPods](https://docs.eigenlayer.xyz/eigenlayer/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/)
+- [Staking Overview](https://docs.rocketpool.net/guides/staking/overview) by Rocketpool
 
 # Last L2 
 Is utilizing Arbitrum Nitro stack
@@ -167,7 +165,7 @@ Is utilizing Arbitrum Nitro stack
 - [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
 
 ## Stylus framework 
-Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient than other frameworks. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, which can lead to faster and cheaper smart contracts.
+Last is utilizing the Stylus framework by Arbitrum, which is a bit more efficient than other frameworks. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, leading to faster and cheaper smart contracts.
  Learn more about Stylus:
 - [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
 - [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
