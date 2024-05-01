@@ -1,11 +1,17 @@
 # Awesome-Last
-Awesome Last is a community-driven public repository designed to be a resource people can use to familiarize themselves with Last ⬛️ 
+Awesome Last is a community-driven public repository designed to function as a resource for our community that can be freely to use to get more familiar with the underlayer tech behind LAST  ⬛️ 
 
 All are welcome to contribute! 
 
-You will find more readings about Last here 
-
+Post Cube & Find Out ⬛️ 
 ## About Last
+LAST is cashflow reinvestment L2 supporting long tail assets by supporting builders building on LAST. 
+
+Official LAST Channel: 
+- [Twitter](https://twitter.com/lastdotnet)
+- [Farcaster channel](https://warpcast.com/~/channel/last)
+- [Discord](https://last.community/)
+- [Website](https://last.net/)
 
 # Table of Contents
 - [Introduction to Web3 development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
