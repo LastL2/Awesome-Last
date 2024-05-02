@@ -120,10 +120,10 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 - [Blockchain Architecture Explaining State Machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
  # Utility Chain Node Operators
-The Last Utility Chain is a heavily modified Thorchain variant, using validator governanc eweigting, economic bonding, and churm models from Thorchain, but removing all swap features.
+The Last Utility Chain is a heavily modified Thorchain variant, using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.
 
 ### Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module
-TSS will be used on Last Utility Chain and is apart of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
+TSS will be used on Last Utility Chain and is a part of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
 - [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
 - [Validator Churn Mechanism](https://docs.thorchain.org/thornodes/overview) 
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
@@ -154,7 +154,7 @@ Staked assets are one of the sources of how value flows into the
 
 
 # Last L2 
-LAST L2 is the Application layer chain built with the Arbitrum Nitro stack
+LAST L2 is the application layer built with the Arbitrum Nitro stack
 - [Arbitrum Nitro: One Small Step for L2, One Giant Leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
 - [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
 - [Shorter Introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
