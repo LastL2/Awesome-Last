@@ -20,7 +20,7 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
 - [Introduction to DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-defi)
 - [Awesome DeFi Publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
-- [Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
+- [Last Channels and Links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
 ------
 
 # Introduction to Web3 Development
