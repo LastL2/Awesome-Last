@@ -3,7 +3,7 @@ Awesome Last is a community-driven public repository designed to be a resource f
 
 <div align="center">
  <a href="https://last.net/">
- <img width="300" height="300" src="last-logo-dark-square_4x.svg" alt="Awesome Last">
+ <img width="300" height="300" src="last-logo-cube-black.svg" alt="Awesome Last">
  </a>
  </div>
  
