@@ -1,11 +1,9 @@
 # Awesome-Last
 Awesome Last is a community-driven public repository designed to be a resource for familiarizing yourself more with the Web3 ecosystem and development. It is the LAST developer resource you need!
-All are welcome to contribute! Create Pull request with add-ons to this list
+All are welcome to contribute to this list! 
 
-
-## About Last
-LAST is cashflow reinvestment L2 supporting long tail assets by supporting builders building on LAST. 
-
+ <img width="500" height="350" src="Awesome-Last/last logo - updated (1).png" alt="Awesome Last">
+Learn more about [LAST](https://last.net/)
 
 # Table of Contents
 - [Introduction to Web3 Development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
