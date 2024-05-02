@@ -21,7 +21,7 @@ Awesome Last is an [awesome-inspired](https://github.com/sindresorhus/awesome/bl
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--   [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#threshold-signature-schemes-chrun-module-node-bonding-design-bifrost-module)
+-   [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
 -   [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
 -   [LAST L2](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#last-l2)
