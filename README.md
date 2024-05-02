@@ -1,5 +1,5 @@
 # Awesome-Last
-Awesome Last is an [awesome-inspired](https://github.com/sindresorhus/awesome/blob/main/awesome.md) public repository designed to be a community-driven resource for blockchain & web3 development. Maintained by the devs at [last.net](https://last.net), it's the LAST developer resource you need! You are welcome to contribute to this resource - reach out for more info in the Last social channels.
+Awesome Last is a public and community-driven resource for blockchain & web3 development inspired by [awesome](https://github.com/sindresorhus/awesome/blob/main/awesome.md). Maintained by the devs at [last.net](https://last.net), it's the LAST developer resource you need! You are welcome to contribute to this resource - reach out for more info in the Last social channels.
 
 
 # Table of Contents
