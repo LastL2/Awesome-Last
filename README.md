@@ -1,5 +1,7 @@
 # Awesome-Last
-Awesome Last is a community-driven public repository designed to be a resource for familiarizing yourself more with the Web3 ecosystem and development. It is the LAST developer resource you need! You are welcome to contribute to this resource! 
+Awesome Last is an [awesome-inspired](https://github.com/sindresorhus/awesome/blob/main/awesome.md) public repository designed to be a community-driven resource for blockchain & web3 development. Maintained by the devs at [last.net](https://last.net), it's the LAST developer resource you need! You are welcome to contribute to this resource - reach out for more info in the Last social channels.
+
+
 
 <div align="center">
  <a href="https://last.net/">
@@ -19,13 +21,13 @@ Awesome Last is a community-driven public repository designed to be a resource f
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--   [Threshold Signature Schemes, Chrun Module, Node Bonding Design, Bifroest Module](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#threshold-signature-schemes-chrun-module-node-bonding-design-bifroest-module)
+-   [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#threshold-signature-schemes-chrun-module-node-bonding-design-bifrost-module)
 -   [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
 -   [LAST L2](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#last-l2)
 -   [EVM+ Stylus Framework](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#stylus-framework)
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
-- [Introduction into DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-into-defi)
+- [Introduction to DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-defi)
 - [Awesome DeFi Publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
 - [Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
 ------
@@ -33,28 +35,28 @@ Awesome Last is a community-driven public repository designed to be a resource f
 # Introduction to Web3 Development
 Developer Introduction to development and starting your Web3 developer journey: 
 - If you are new to development [Zero to One Web Dev Guide](https://ravi0.notion.site/Zero-to-One-Web-Dev-Guide-0b9dcd9c77b249ca8af4b9e5bd6b676e) is a place to start your journey
-- [How does Ethereum work](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) required reading to understand how Ethereum blockchain works
+- [How Does Ethereum Work](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) required reading to understand how Ethereum blockchain works
 -  [Web2 to Web3 🚀 — Week 2, Day 1: Scripting and Smart Contracts! Providers, Signers, and Wallets](https://www.youtube.com/watch?v=m2AJAcWk394&ab_channel=AustinGriffith) from Austin Griffith
-- [Introduction to Ethereum development](https://www.youtube.com/watch?v=MlJPjJQZtC8&t=458s&ab_channel=AustinGriffith) tutorial by Austin Griffith
+- [Introduction to Ethereum Development](https://www.youtube.com/watch?v=MlJPjJQZtC8&t=458s&ab_channel=AustinGriffith) tutorial by Austin Griffith
 - [The Complete Guide to Full Stack Web3 Development](https://dev.to/edge-and-node/the-complete-guide-to-full-stack-web3-development-4g74) by Nader Dabit
 - [Blockchain Developer | How to learn everything you need to become one](https://patrickalphac.medium.com/blockchain-developer-how-to-learn-everything-you-need-to-become-one-1df2c2121e34)
-- [Foundation of Ethereum Development stack](https://ethereum.org/en/developers/docs/) Ethereum.org
+- [Foundation of Ethereum Development Stack](https://ethereum.org/en/developers/docs/) Ethereum.org
 - [Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6)](https://www.youtube.com/watch?v=umepbfKp5rI) by Patrick Collins
 - [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource for all things Ethereum and Go by DCBuilder
 - [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
-- [Worry-free Web3: Getting started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae) blog post where you can find much more tutorials and basic tools!
+- [Worry-free Web3: Getting Started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae) blog post where you can find much more tutorials and basic tools!
 
 ## Developer Tools
-Ethereum Development environments:
+Ethereum Development Environments:
 - [Hardhat](https://hardhat.org/tutorial) for developing Ethereum Contracts and dApps in JavaScript
 - [Foundry](https://book.getfoundry.sh/) manages your dependencies, compiles your project, runs tests, deploys, and lets you interact with the chain from the command line and via Solidity scripts. Supports Rust and Solidity
 Solidity: 
-- [Solidity lang](https://soliditylang.org/) official website
-- [Introduction to smart contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
+- [solidity lang](https://soliditylang.org/) official website
+- [Introduction to Smart Contracts](https://docs.soliditylang.org/en/v0.8.24/introduction-to-smart-contracts.html) in Solidity
 Golang: 
 - [Install Go](https://go.dev/doc/install)
-- [Ethereum for Go developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
-- [Introduction to Go language](https://go.dev/doc/effective_go)
+- [Ethereum for Go Developers](https://ethereum.org/en/developers/docs/programming-languages/golang/) huge resource of tutorials, tools and further reading
+- [Introduction to Go Language](https://go.dev/doc/effective_go)
 - [Tour of Go](https://go.dev/tour/welcome/1) is an interactive way to try programming in Go. This is an interactive window that lets you play with Go and test commands
 Cosmos:
 - [ELI5: What is IBC](https://medium.com/the-interchain-foundation/eli5-what-is-ibc-def44d7b5b4c)
@@ -66,79 +68,76 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [Altlas IDE](https://www.atlaszk.com/)
 - [ETH Build](https://eth.build/) - Educational sandbox for Web3
 - [Scaffold ETH](https://scaffoldeth.io/) - Start building contracts, play with Solidity
-- [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
+- [Smart Contract Libraries, APIs, SDKs](https://www.cookbook.dev/)
 - [Crypto Zombies](https://cryptozombies.io/) Learn to write smart contracts by making your own crypto-collectibles game
 - [ETH.Build](https://eth.build/) An Educational Sandbox For Web3... And Much More
-- [Introduction to Solidity smart contracts](https://blog.paulmcaviney.ca/hello-world) blog post
+- [Introduction to Solidity Smart Contracts](https://blog.paulmcaviney.ca/hello-world) blog post
 - [Solidity School](https://github.com/Aniket-Engg/solidity-school) The first place for early developers to learn Solidity
 
 ## Build on Cosmos
 Cosmos developer environments and learning resources
 - [CosmWasm](https://academy.cosmwasm.com/) Academy
 - [Cosmwasm Zero to Hero](https://github.com/Callum-A/cosmwasm-zero-to-hero) Learn CosmWasm so you can build Cosmos contracts
-- [Cosmwasm lectures](https://www.inflearn.com/course/dsrv-dev-playground) in Korean
+- [Cosmwasm Lectures](https://www.inflearn.com/course/dsrv-dev-playground) in Korean
 - **[Area-52](https://area-52.io/) Master CosmWasm and smart contracts in Rust. Learn how to build your own multichain applications! Similar to Cryptozombies, fun and interactive coding lessons**
 - [Cosmology](https://cosmology.zone/) developer tools to help you build in the Cosmos ecosystem
-- [Cosmos tutorials](https://cosmology.zone/learn) to learn how to build Cosmos app
-- [Osmosis educational library](https://support.osmosis.zone/library) great source of cosmos education materials
+- [Cosmos Tutorials](https://cosmology.zone/learn) to learn how to build Cosmos app
+- [Osmosis Educational Library](https://support.osmosis.zone/library) great source of cosmos education materials
 Deep dive into Cosmos ecosystem: 
 - [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
 - Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
 # Become DeFi Developer
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
-- [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
+- [Ethereum Beige Paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
 - [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
-- [DeFi Adapter Library ](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask
+- [DeFi Adapter Library](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask.
 
 # Utility Chain
-The Last Custody Network (LCN) the Utility Chain of Twinchain protocol design of LAST Network. Utility chain acts as accounting layer for LAST L2. The primary function is to handle operations such as bridge and yield-bearing accounting.
-LCN utilizes Cosmos, Ethereum, and Bitcoin as multichain yield-bearing protocols. The utility chain is used only by Node Operators
+The Last Utility Chain (LUC) acts as the services and accounting layer for LAST L2. The primary function is to handle bridge, messaging, and yield accounting.
+(coming soon)
 
 ## Cosmos SDK
-CosmosSDK acts as the state machine for LCN 
+CosmosSDK acts as the state machine for LUC.
 CosmosSDK is a framework for building blockchain applications in Go programming language. Cosmos SDK is used to build [Gaia](https://hub.cosmos.network/getting-started/what-is-gaia), the application implementation build for the Cosmos Hub.
 
 - [CosmosSDK Modules](https://docs.cosmos.network/v0.50/build/building-modules/intro) can be seen as little state-machines within the state-machine. They generally define a subset of the state using one or more KVStores in the main multistore and a subset of message types. These messages are routed by one of the main components of Cosmos SDK core, BaseApp, to a module Protobuf Msg service that defines them. 
 - [Understand SDK Modules](https://tutorials.cosmos.network/tutorials/8-understand-sdk-modules/)
-- [Learn to build via Cosmos SDK](https://docs.cosmos.network/main/learn/intro/overview)
-- Last is [application-specific blockchain, here is introduction to app specific blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
+- [Learn to Build Via Cosmos SDK](https://docs.cosmos.network/main/learn/intro/overview)
+- [Introduction to App Specific Blockchains](https://docs.cosmos.network/v0.50/learn/intro/why-app-specific)
 - [Anatomy of a Cosmos SDK Application](https://docs.cosmos.network/v0.50/learn/beginner/app-anatomy)
 - [Transaction Lifecycle of CosmosSDK Application](https://docs.cosmos.network/v0.50/learn/beginner/tx-lifecycle)
-- [Building Scalable Applications with the Cosmos SDK](https://medium.com/@jefferyokesamuel1/building-scalable-applications-with-the-cosmos-sdk-6dc56ae28643) introduction alike post about Cosmos SDK
+- [Building Scalable Applications with the Cosmos SDK](https://medium.com/@jefferyokesamuel1/building-scalable-applications-with-the-cosmos-sdk-6dc56ae28643) Introductory post about Cosmos SDK
 
 ### CometBFT
-CometBFT module will be a part of the Cosmos SDK stack. CometBFT handles consensus and networking in the LCN. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
-
-CometBFT is the most (and only) mature BFT consensus engine in existence. It is widely used across the industry and is considered the gold standard consensus engine for building Proof-of-Stake systems.
+The CometBFT module is part of the Cosmos SDK stack. CometBFT is the a Byzantine Fault Tolerant (BFT) middleware that takes a state transition machine - written in any programming language - and securely replicates it on many machines. It is a fork of [Tendermint Core](https://github.com/tendermint/tendermint) and implements the Tendermint consensus algorithm.
 
 BTF stands for Byzantine-Fault Tolerant 
-CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.network/academy/2-cosmos-concepts/1-architecture.html) package for networking and consensus layers of blockchain
+CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.network/academy/2-cosmos-concepts/1-architecture.html) package for networking and consensus layers of blockchain.
 - Introduction to CometBFT [CometBFT: The consensus engine that fuels the cosmos ecosystem](https://medium.com/@ali-the-curious/cometbft-the-consensus-engine-that-fuels-the-cosmos-ecosystem-ff778fcba809) blog post by Allisgar Merchant
 - CometBFT is essential component of Cosmos blockchain app architecture. CometBFT is a blockchain application platform supporting state machines in any language. The language-agnostic CometBFT helps developers securely and consistently replicate deterministic, finite-state machines.
-- [Explore CometBFT into the details](https://docs.cometbft.com/v0.37/) via documentation introduction
-- [Blockchain architecture explaining state machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
+- [Explore CometBFT Into the Details](https://docs.cometbft.com/v0.37/) via documentation introduction
+- [Blockchain Architecture Explaining State Machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
  # Utility Chain Node Operators
-Every Utility Chain Node Operator is required to run Ethereum and Bitcoin full nodes. 
-The Last Utility Chain leverages some of the THORChain and THORNode architecture designs.
+The Last Utility Chain is a heavily modified Thorchain variant, using validator governanc eweigting, economic bonding, and churm models from Thorchain, but removing all swap features.
 
-### Threshold Signature Schemes, Chrun module, Node bonding design, Bifroest module
-TSS will be used on Last Utility chain and is apart of the Validator voting design structure. Utility chain is leveraging the Bifroest module for its twin-chain communication module and cross-chain swaps
-- [THORNode overview](https://docs.thorchain.org/thornodes/overview) docs page
-- [Churn mechanism of validators](https://docs.thorchain.org/thornodes/overview) Utility chain will have 1 week epoch for validator
+### Threshold Signature Schemes, Churn module, Node bonding design, Bifrost module
+TSS will be used on Last Utility chain and is apart of the Vvalidator voting design structure. Utility chain uses the Bifrost module for its twin-chain communication module.
+- [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
+- [Validator Churn Mechanism](https://docs.thorchain.org/thornodes/overview) 
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
 - [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b)
 - [Under the Hood: Nodes](https://thorchain-university.medium.com/under-the-hood-nodes-85a7da3af3b1) Explains node bonding mechanism
 - [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b)
-- [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
+- [Bifrost Signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
 
-## Run Node for LAST
-Run node for LAST ⬛️  It requires you to run Ethereum Full node, Bitcoin Full node and Cosmos full node
+## Run a Last Node
+At launch, running a Last node requires simultaneously running an active Ethereum full node, Bitcoin full node, and Cosmos full node.
 Guidelines:
-- [Spin up your own Ethereum node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) blog post
-- [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) docs page
+- [Spin Up Your Own Ethereum Node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) blog post
+- [Run Bitcoin Node](https://bitcoin.org/en/full-node#setup-a-full-node) docs page
 
 ### Recommendation from our community to run the Ethereum node: 
 - Input from Brian, Co-founder @ Ansybl.io
