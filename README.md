@@ -2,10 +2,12 @@
 Awesome Last is a community-driven public repository designed to be a resource for familiarizing yourself more with the Web3 ecosystem and development. It is the LAST developer resource you need!
 All are welcome to contribute to this list! 
 <div align="center">
+ <a href="https://last.net/">
  <img width="300" height="300" src="last-logo-dark-square_4x.svg" alt="Awesome Last">
+ </a>
  </div>
  
-Learn more about [LAST](https://last.net/)
+
 
 # Table of Contents
 - [Introduction to Web3 Development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
