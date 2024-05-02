@@ -2,7 +2,7 @@
 Awesome Last is a community-driven public repository designed to be a resource for familiarizing yourself more with the Web3 ecosystem and development. It is the LAST developer resource you need!
 All are welcome to contribute to this list! 
 
- <img width="500" height="350" src="last logo - updated (1).png" alt="Awesome Last">
+ <img width="500" height="500" src="last logo - updated (1).png" alt="Awesome Last">
  
 Learn more about [LAST](https://last.net/)
 
