@@ -183,7 +183,7 @@ List of amazing DeFi introduction articles and videos:
 - [What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)](https://www.youtube.com/watch?v=k9HYC0EJU6E&ab_channel=Finematics) YouTube video
 - [What is DeFi and How it Works](https://chain.link/education/defi) blog post
   
-## Awesome DeFi publications & Tutorials
+## Awesome DeFi Publications & Tutorials
 List of amazing DeFi and Last related publications:
 - [Stuffed Blocks](https://tonysheng.substack.com/archive) Substack by Tony Sheng
 - [Kerman Kohli](https://kermankohli.substack.com/) Substack full of amazing DeFi resources!
