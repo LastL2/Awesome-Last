@@ -3,6 +3,7 @@ Awesome Last is a community-driven public repository designed to be a resource f
 All are welcome to contribute to this list! 
 
  <img width="500" height="350" src="Awesome-Last/last logo - updated (1).png" alt="Awesome Last">
+ 
 Learn more about [LAST](https://last.net/)
 
 # Table of Contents
