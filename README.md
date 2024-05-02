@@ -1,41 +1,35 @@
 # Awesome-Last
-Awesome Last is a community-driven public repository designed to function as a resource for our community that can be freely to use to get more familiar with the underlayer tech behind LAST  ⬛️ 
+Awesome Last is a community-driven public repository designed to be a resource for familiarizing yourself more with the Web3 ecosystem and development. It is the LAST developer resource you need!
+All are welcome to contribute! Create Pull request with add-ons to this list
 
-All are welcome to contribute! 
 
-Post Cube & Find Out ⬛️ 
 ## About Last
 LAST is cashflow reinvestment L2 supporting long tail assets by supporting builders building on LAST. 
 
-Official LAST Channel: 
-- [Twitter](https://twitter.com/lastdotnet)
-- [Farcaster channel](https://warpcast.com/~/channel/last)
-- [Discord](https://last.community/)
-- [Website](https://last.net/)
 
 # Table of Contents
-- [Introduction to Web3 development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
+- [Introduction to Web3 Development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
 -   [Developer Tools](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#developer-tools)
 -   [Build on Ethereum](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-ethereum)
 -   [Build on Cosmos](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-cosmos)
--   [Become DeFi developer](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#become-defi-developer)
+-   [Become DeFi Developer](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#become-defi-developer)
 - [Utility Chain](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain)
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--   [Threshold Signature Schemes, Chrun module, Node bonding design, Bifroest module](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#threshold-signature-schemes-chrun-module-node-bonding-design-bifroest-module)
--   [Run node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
-- [Staked assets on LAST](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets-on-last)
+-   [Threshold Signature Schemes, Chrun Module, Node Bonding Design, Bifroest Module](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#threshold-signature-schemes-chrun-module-node-bonding-design-bifroest-module)
+-   [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
+- [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
 -   [LAST L2](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#last-l2)
--   [EVM+ Stylus framework](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#stylus-framework)
+-   [EVM+ Stylus Framework](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#stylus-framework)
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
 - [Introduction into DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-into-defi)
-- [Awesome DeFi publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
-- [Official Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
+- [Awesome DeFi Publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
+- [Last channels and links](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-channels-and-links)
 ------
 
-# Introduction to Web3 development
-Developer Introduction into development and starting your Web3 developer journey: 
+# Introduction to Web3 Development
+Developer Introduction to development and starting your Web3 developer journey: 
 - If you are new to development [Zero to One Web Dev Guide](https://ravi0.notion.site/Zero-to-One-Web-Dev-Guide-0b9dcd9c77b249ca8af4b9e5bd6b676e) is a place to start your journey
 - [How does Ethereum work](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) required reading to understand how Ethereum blockchain works
 -  [Web2 to Web3 🚀 — Week 2, Day 1: Scripting and Smart Contracts! Providers, Signers, and Wallets](https://www.youtube.com/watch?v=m2AJAcWk394&ab_channel=AustinGriffith) from Austin Griffith
@@ -73,7 +67,7 @@ Interactive Development Environments - Write, test, and deploy smart contracts
 - [Smart contract libraries, APIs, SDKs](https://www.cookbook.dev/)
 - [Crypto Zombies](https://cryptozombies.io/) Learn to write smart contracts by making your own crypto-collectibles game
 - [ETH.Build](https://eth.build/) An Educational Sandbox For Web3... And Much More
-- [Introduction to Solidity smart contracts](https://blog.paulmcaviney.ca/hello-world) blog post by Paul McAviney
+- [Introduction to Solidity smart contracts](https://blog.paulmcaviney.ca/hello-world) blog post
 - [Solidity School](https://github.com/Aniket-Engg/solidity-school) The first place for early developers to learn Solidity
 
 ## Build on Cosmos
@@ -89,7 +83,7 @@ Deep dive into Cosmos ecosystem:
 - [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
 - Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-# Become DeFi developer
+# Become DeFi Developer
 - [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
 - [Ethereum beige paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
 - [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
@@ -138,11 +132,11 @@ TSS will be used on Last Utility chain and is apart of the Validator voting desi
 - [Bifroest signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
 
 
-## Run node for LAST
-Run node for LAST ⬛️ 
+## Run Node for LAST
+Run node for LAST ⬛️  It requires you to run Ethereum Full node, Bitcoin Full node and Cosmos full node
 Guidelines:
-- [Spin up your own Ethereum node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) by @nhsz
-- [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) by Bitcoin.org
+- [Spin up your own Ethereum node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) blog post
+- [Run Bitcoin node](https://bitcoin.org/en/full-node#setup-a-full-node) docs page
 
 ### Recommendation from our community to run the Ethereum node: 
 - Input from Brian, Co-founder @ Ansybl.io
@@ -150,16 +144,16 @@ here are a few things to keep in mind:
 1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum, but the more, the better (especially now that we’ve got blobs live on the mainnet). If you're running in a cloud environment, most drives are network-attached and will most likely be your bottleneck when it comes to sync times/rpc response time.
 2. Reth is fast becoming my favorite execution client. Fast, configurable, and takes less disk space
 3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
-- [Nimbus node guide](https://nimbus.guide/index.html)  
+- [Nimbus node guide](https://nimbus.guide/index.html) docs page
 
-## Staked assets on LAST
-Staked assets are a huge part of LAST protocol design
-- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e)
-- [EigenPods](https://docs.eigenlayer.xyz/eigenlayer/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/)
+## Staked assets
+Staked assets are one of the sources of how value flows into the 
+- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e) blog post
+- [EigenPods](https://docs.eigenlayer.xyz/eigenlayer/restaking-guides/restaking-user-guide/native-restaking/create-eigenpod-and-set-withdrawal-credentials/) docs page
 - [Staking Overview](https://docs.rocketpool.net/guides/staking/overview) by Rocketpool
 
 # Last L2 
-LAST L2 is Application layer chain built with the Arbitrum Nitro stack
+LAST L2 is the Application layer chain built with the Arbitrum Nitro stack
 - [Arbitrum Nitro: one small step for L2, one giant leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
 - [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
 - [Shorter introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
