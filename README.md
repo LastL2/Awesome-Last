@@ -7,12 +7,10 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 -   [Build on Ethereum](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-ethereum)
 -   [Build on Cosmos](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-cosmos)
 -   [Become DeFi Developer](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#become-defi-developer)
-- [Last Infrastructure]
 - [Utility Chain](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain)
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
-- [RPCs]
-- [RPC Providers]
+- [RPCs](https://github.com/LastL2/Awesome-Last/blob/main/README.md#rpcs)
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
 -  [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
 -  [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
