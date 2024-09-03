@@ -1,22 +1,22 @@
 # Awesome-Last
 Awesome Last is a public and community-driven resource for blockchain & web3 development inspired by [awesome](https://github.com/sindresorhus/awesome/blob/main/awesome.md). Maintained by the devs at [last.net](https://last.net), it's the LAST developer resource you need! You are welcome to contribute to this resource - reach out for more info in the Last social channels.
 
-
 # Table of Contents
 - [Introduction to Web3 Development](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-web3-development)
 -   [Developer Tools](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#developer-tools)
 -   [Build on Ethereum](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-ethereum)
 -   [Build on Cosmos](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#build-on-cosmos)
 -   [Become DeFi Developer](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#become-defi-developer)
+- [Last Infrastructure]
 - [Utility Chain](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain)
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
+- [RPCs]
+- [RPC Providers]
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--   [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
--   [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
+-  [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
+-  [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
--   [LAST L2](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#last-l2)
--   [EVM+ Stylus Framework](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#stylus-framework)
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
 - [Introduction to DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-defi)
 - [Awesome DeFi Publications & Tutorials](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#awesome-defi-publications--tutorials)
@@ -52,7 +52,12 @@ Golang:
 Cosmos:
 - [ELI5: What is IBC](https://medium.com/the-interchain-foundation/eli5-what-is-ibc-def44d7b5b4c)
 - [Spawn](https://github.com/rollchains/spawn) development platform for building custom modular Cosmos-SDK blockchains
-  
+
+# Become DeFi Developer
+- [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
+- [Ethereum Beige Paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
+- [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
+- [DeFi Adapter Library](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask.
 ## Build on Ethereum 
 Interactive Development Environments - Write, test, and deploy smart contracts
 - [Remix](https://remix.ethereum.org/)
@@ -78,16 +83,6 @@ Deep dive into Cosmos ecosystem:
 - [Cosmos Hub](https://hub.cosmos.network/) is the first of thousands of interconnected blockchains that will eventually comprise the Cosmos Network. The primary token of the Cosmos Hub is the ATOM, but the Hub will support many tokens in the future.
 - Build applications on CosmosSDK via [Ignite CLI](https://github.com/ignite/cli) platform to build, launch, and maintain any crypto application on a sovereign and secured blockchain. It is a developer-friendly interface to the Cosmos SDK, this CLI generates boilerplate code for you, so you can focus on writing business logic.
 
-# Become DeFi Developer
-- [How to Become a DeFi Developer](https://kermankohli.substack.com/p/how-to-become-a-defi-developer) primer on what you should understand in DeFi ecosystem to consider yourself as a DeFi developer
-- [Ethereum Beige Paper](https://github.com/chronaeon/beigepaper/blob/master/beigepaper.pdf) simplified version of Ethereum's yellow paper
-- [How to Build a Crypto Project like an Aerospace Engineer](https://mirror.xyz/apeworx.eth/XOagKK6ZweD256uc2YsRIkCp5rWChAeEzkPVNOuD4M8) Mirror blog post
-- [DeFi Adapter Library](https://github.com/consensys-vertical-apps/mmi-defi-adapters/tree/main) designed to simplify and standardize the process of fetching and interacting with data from various DeFi protocols, which often have unique interfaces and data structures. By MetaMask.
-
-# Utility Chain
-The Last Utility Chain (LUC) acts as the services and accounting layer for LAST L2. The primary function is to handle bridge, messaging, and yield accounting.
-(coming soon)
-
 ## Cosmos SDK
 CosmosSDK acts as the state machine for LUC.
 CosmosSDK is a framework for building blockchain applications in Go programming language. Cosmos SDK is used to build [Gaia](https://hub.cosmos.network/getting-started/what-is-gaia), the application implementation build for the Cosmos Hub.
@@ -110,22 +105,48 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 - [Explore CometBFT Into the Details](https://docs.cometbft.com/v0.37/) via documentation introduction
 - [Blockchain Architecture Explaining State Machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
- # Utility Chain Node Operators
-The Last Utility Chain is a heavily modified Thorchain variant, using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.
+# RPCs
+At Last we are building native yield chain and so that means a lot of RPC calls needed in the future. We will eventually be using our own RPC. For now, we are planning to use Infura for our mainnet router.
 
-### Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module
+- [What is Remote Procedure Call](https://hackernoon.com/what-is-a-remote-procedure-call-rpc) blog post
+- [JSON RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc/) blog post
+- [Execution API Specification](https://github.com/ethereum/execution-apis) Collection of APIs provided by Ethereum execution layer clients
+- [Understanding RPC nodes ultimate guide](https://drpc.org/blog/understanding-rpc-nodes-ultimate-guide/) blog post
+- [What is RPC node](https://www.alchemy.com/overviews/rpc-node) blog post
+- [How to create a private RPC endpoint](https://www.alchemy.com/overviews/private-rpc-endpoint) blog post
+- [Why eRPC](https://docs.erpc.cloud/why) docs page
+- [How to add Alchemy RPC to Metamask](https://www.web3.university/article/how-to-add-alchemy-rpc-endpoints-to-metamask) blog post
+- [What Are RPC Nodes and Endpoints? The Complete Guide [2024]](https://www.ankr.com/blog/what-are-rpc-nodes-and-endpoints-the-complete-guide-2023/) blog post
+- [APIs, RPCs, and Node Infrastructure - The Backbone of Web3 Development](https://hackernoon.com/apis-rpcs-and-node-infrastructure-the-backbone-of-web3-development) blog post
+- [Price comparison of Ethereum and EVM compatible RPC providers](https://www.noderpc.xyz/blog/posts/ethereum-evm-rpc-price-comparison) blog post
+- [Making JSON-RPC API calls to an Ethereum node in Amazon Managed Blockchain (AMB)](https://docs.aws.amazon.com/managed-blockchain/latest/ethereum-dev/json-rpc-api-examples.html) blog post
+
+## RPC providers
+RPC aggregators, explorers...
+- [RPC providers explorer](https://atlas.1kx.capital/) 38 providers, 20 networks, 425 endpoints,12 regional probes, Indexers and APIs available too
+- [RPC info](https://rpc.info/) list of 298 available RPCs
+- [Chainlist](https://chainlist.org/) list of EVM networks
+- [List of 29 RPC Node providers](https://www.alchemy.com/best/rpc-node-providers)
+- [Run Base node from one command](https://client.buidlguidl.com/)
+
+
+ # Utility Chain Node Operators
+The Last Utility Chain is a heavily modified Thorchain variant using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.
+
+**Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module**
+
 TSS will be used on Last Utility Chain and is a part of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
 - [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
 - [Validator Churn Mechanism](https://docs.thorchain.org/thornodes/overview) 
 - [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
-- [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b)
-- [Under the Hood: Nodes](https://thorchain-university.medium.com/under-the-hood-nodes-85a7da3af3b1) Explains node bonding mechanism
-- [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b)
-- [Bifrost Signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest)
+- [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b) blog post
+- [Under the Hood: Nodes](https://thorchain-university.medium.com/under-the-hood-nodes-85a7da3af3b1) blog post explaining node bonding mechanism
+- [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b) blog post
+- [Bifrost Signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest) docs page
 
 
 ## Run a Last Node
-At launch, running a Last node requires simultaneously running an active Ethereum full node, Bitcoin full node, and Cosmos full node.
+At launch, running a Last node requires simultaneously running an active Ethereum full node and Bitcoin full node.
 Guidelines:
 - [Spin Up Your Own Ethereum Node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) blog post
 - [Run Bitcoin Node](https://bitcoin.org/en/full-node#setup-a-full-node) docs page
@@ -139,24 +160,10 @@ here are a few things to keep in mind:
 - [Nimbus Node Guide](https://nimbus.guide/index.html) docs page
 
 ## Staked assets
-Staked assets are one of the sources of how value flows into the 
-- [Staking Overview](https://docs.rocketpool.net/guides/staking/overview) by Rocketpool
-- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e) blog post
-
-
-# Last L2 
-LAST L2 is the application layer built with the Arbitrum Nitro stack
-- [Arbitrum Nitro: One Small Step for L2, One Giant Leap for Ethereum](https://medium.com/offchainlabs/arbitrum-nitro-one-small-step-for-l2-one-giant-leap-for-ethereum-bc9108047450) blog post
-- [Arbitrum Nitro Introduction](https://docs.arbitrum.io/why-nitro) docs page 
-- [Shorter Introduction of Arbitrum Nitro](https://docs.arbitrum.io/for-devs/concepts/public-chains#nitro) docs page
-
-## EVM+ Stylus Framework 
-Last uses the Stylus framework by Arbitrum. They call Stylus EVM+ as everything is entirely additive and is not replacing the Ethereum Virtual Machine (EVM). Stylus allows smart contracts to be written in languages like Rust, C, and C++, which can be more efficient than Solidity, leading to faster and cheaper smart contracts.
- Learn more about Stylus:
-- [Hello, Stylus](https://medium.com/offchainlabs/hello-stylus-6b18fecc3a22)
-- [Introduction to Stylus](https://docs.arbitrum.io/stylus/stylus-gentle-introduction#whats-stylus)
-- [Stylus VM and Fraud Prover](https://github.com/OffchainLabs/stylus)
-- [Arbitrum Stylus Paradigm Shift](https://medium.com/@estheraladioche569/arbitrum-stylus-paradigm-shift-95e62c035a95)
+Staked assets are one of the sources of how value flows into the Last protocol.  
+- [Staking Overview](https://docs.rocketpool.net/guides/staking/overview) docs page by Rocketpool
+- [EigenLayer: How Restaking Will Transform Security for Ethereum-Based Protocols](https://medium.com/@mustafa.hourani/eigenlayer-how-restaking-will-transform-security-for-ethereum-based-protocols-fd37c01be44e) blog post by EigenLayer Community member
+- [Lido Community Staking: Overview](https://blog.lido.fi/lido-community-staking-an-overview/) blog post by Lido
 
 # veGovernance
 ve style governance design is based on Gauges and Bribes. The ve(3,3) governance design is composed of 3 parts:
