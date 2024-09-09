@@ -104,7 +104,7 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 - [Blockchain Architecture Explaining State Machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
 # RPCs
-At Last we are building native yield chain and so that means a lot of RPC calls needed in the future. We will eventually be using our own RPC. For now, we are planning to use Infura for our mainnet router.
+At Last we are building native yield chain and so which means a lot of RPC calls needed to keep the protocol up and running smoothly
 
 - [What is Remote Procedure Call](https://hackernoon.com/what-is-a-remote-procedure-call-rpc) blog post
 - [JSON RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc/) blog post
