@@ -14,6 +14,7 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
 -  [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
 -  [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
+-  [Block Explorers]()
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
 - [Introduction to DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-defi)
@@ -156,6 +157,15 @@ here are a few things to keep in mind:
 2. Reth is fast becoming my favorite execution client. Fast, configurable, and takes less disk space
 3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
 - [Nimbus Node Guide](https://nimbus.guide/index.html) docs page
+
+# Block Explorers
+Learn more about Block Explorers 
+- [Blockchain Explorers what they are good for?](https://hackernoon.com/blockchain-explorers-what-are-they-good-for-the-tools-you-didnt-know-you-need-to-know-about) blog post
+- [Smart Contract Watch](https://github.com/Neufund/smart-contract-watch) A tool to monitor a number of smart contracts and transactions
+- [Block Explorers with Bunny from Dora](https://www.youtube.com/watch?v=xe6WvcqmPvs) Web3 Galaxy Brain podcast episode
+- [Lazy Scan](https://woxjro.github.io/lazy-etherscan) an Ethereum blockchain explorer that can be used from your terminal
+- [Block explorers](https://ethereum.org/en/developers/docs/data-and-analytics/block-explorers/) blog post page on Ethereum.org explaining the data that you can get
+- [List of 28 most popular block explorers](https://www.alchemy.com/best/block-explorers) Alchemy list
 
 ## Staked assets
 Staked assets are one of the sources of how value flows into the Last protocol.  
