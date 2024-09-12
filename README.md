@@ -14,7 +14,7 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 -   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
 -  [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
 -  [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
--  [Block Explorers]()
+-  [Block Explorers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#block-explorers)
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
 - [Introduction to DeFi](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#introduction-to-defi)
