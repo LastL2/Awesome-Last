@@ -132,7 +132,7 @@ RPC aggregators, explorers...
  # Utility Chain Node Operators
 The Last Utility Chain is a heavily modified Thorchain variant using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.
 
-# Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module**
+# Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module
 
 TSS will be used on Last Utility Chain and is a part of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
 - [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
