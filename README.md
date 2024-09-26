@@ -10,10 +10,13 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 - [Utility Chain](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain)
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
+-   [THORChain]()
+-   [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
+-  [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
+-   [Last L2]()
+-   [Rollkit]()
+-   [Artela]()
 - [RPCs](https://github.com/LastL2/Awesome-Last/blob/main/README.md#rpcs)
--   [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--  [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
--  [Run Node for Last](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#run-node-for-last)
 -  [Block Explorers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#block-explorers)
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
 - [ve Governance](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#vegovernance)
@@ -104,6 +107,50 @@ CometBFT is [ABCI = Application Blockchain Interface](https://tutorials.cosmos.n
 - [Explore CometBFT Into the Details](https://docs.cometbft.com/v0.37/) via documentation introduction
 - [Blockchain Architecture Explaining State Machine, CometBFT, ABCI](https://docs.cosmos.network/main/learn/intro/sdk-app-architecture)
 
+  # THORChain 
+Last Utility Chain is using heavily modified version of THORChain using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.The liquidity is handled by Last L2
+- [THORChain introduction](https://docs.thorchain.org/) docs page
+- [THORChain dev docs](https://dev.thorchain.org/)
+- [THORChain Vaults and the incentive pendulum](https://www.youtube.com/watch?v=dKMCpb4iQQ8&ab_channel=GrassRootsCrypto) video by Grassroots Crypto
+- [THORChain Network security part 1](https://www.youtube.com/watch?v=m0rIl8XmjYc&ab_channel=GrassRootsCrypto) video by Grassroots Crypto
+- [THORChain Network Security part 2](https://www.youtube.com/watch?v=H-yDMgoE4v4) video by Grassroots Crypto
+- [THORChain - wait times and fees explained](https://www.youtube.com/watch?v=XAdaEXO-Ofg) video by Grassroots Crypto
+- [THORChain - Consensus Failure](https://www.youtube.com/watch?v=6drbzW5-8Io&ab_channel=GrassRootsCrypto) video by Grassroots Crypto
+
+## Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module
+
+TSS will be used on Last Utility Chain and is a part of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
+- [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
+- [Validator Churn Mechanism](https://docs.thorchain.org/thornodes/overview) 
+- [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
+- [Under the Hood: Nodes](https://crypto-university.medium.com/under-the-hood-nodes-85a7da3af3b1) blog post explaining node bonding mechanism
+- [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b) blog post
+- [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b) blog post
+- [THORChain staking](https://dev.thorchain.org/technical-faq.html?highlight=tss#staking)
+- [Sorting out Distributed Validator Technology](https://medium.com/nethermind-eth/sorting-out-distributed-validator-technology-a6f8ca1bbce3) blog post where TSS is mentioned
+- [Bifrost Signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest) docs page
+
+ # Utility Chain Node Operators
+The Last Utility Chain is a heavily modified Thorchain variant using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.
+- [THORChain - Node Operator 101 - What You Need To Know!](https://www.youtube.com/watch?v=XXYXNAolPEU&ab_channel=GrassRootsCrypto) video by Grassroots Crypto
+
+# Last L2
+The Last L2 is the exection environment of Last L2 leveraging Artela and Rollkit
+
+## Rollkit
+-[Introducing Rollkit: a modular rollup framework](https://blog.celestia.org/introducing-rollkit-a-modular-rollup-framework/) blog post
+- [Rollkit introduction](https://rollkit.dev/learn/intro) docs page
+- [Rollkit repo](https://github.com/rollkit)
+- [Settlement in the modular stack](https://celestia.org/learn/modular-settlement-layers/settlement-in-the-modular-stack/) blog post
+
+## Artela
+- [Artela introduction](https://docs.artela.network/main) doc page
+- [Overview](https://docs.artela.network/main/Artela-Blockchain) Artela architecture overview 
+- [Introducing Artela: A New Solution for Blockchain Extensibility | Kevin Yang - Artela](https://www.youtube.com/watch?v=sQ38uwJNnxM&ab_channel=ETHDenver) talk from ETH Denver
+- [EVM++ Modular Execution Layer Now Live on Celestia!](https://artela.network/blog/evm-modular-execution-layer-now-live-on-celestia) blog post
+- [Artela developer portal](https://artela.network/build/developer-portal)
+
+
 # RPCs
 At Last we are building native yield chain and so which means a lot of RPC calls needed to keep the protocol up and running smoothly
 
@@ -127,36 +174,6 @@ RPC aggregators, explorers...
 - [Chainlist](https://chainlist.org/) list of EVM networks
 - [List of 29 RPC Node providers](https://www.alchemy.com/best/rpc-node-providers)
 - [Run Base node from one command](https://client.buidlguidl.com/)
-
-
- # Utility Chain Node Operators
-The Last Utility Chain is a heavily modified Thorchain variant using validator governance weighting, economic bonding, and churn models from Thorchain, but removing all swap features.
-
-# Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module
-
-TSS will be used on Last Utility Chain and is a part of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
-- [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
-- [Validator Churn Mechanism](https://docs.thorchain.org/thornodes/overview) 
-- [Threshold Signature Schemes](https://medium.com/nethermind-eth/threshold-signature-schemes-36f40bc42aca)
-- [Under the Hood: Asgard Vaults, TSS and Node Churns](https://thorchain-university.medium.com/under-the-hood-asgard-vaults-tss-and-node-churns-4767f3a5624b) blog post
-- [Under the Hood: Nodes](https://thorchain-university.medium.com/under-the-hood-nodes-85a7da3af3b1) blog post explaining node bonding mechanism
-- [Threshold Signatures: The Future of Private Keys](https://medium.com/zengo/threshold-signatures-private-key-the-next-generation-f27b30793b) blog post
-- [Bifrost Signer](https://docs.thorchain.org/how-it-works/technology#signer-bifroest) docs page
-
-
-## Run a Last Node
-At launch, running a Last node requires simultaneously running an active Ethereum full node and Bitcoin full node.
-Guidelines:
-- [Spin Up Your Own Ethereum Node](https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/) blog post
-- [Run Bitcoin Node](https://bitcoin.org/en/full-node#setup-a-full-node) docs page
-
-### Recommendation from Last community to run the Ethereum node: 
-- Input from Brian, Co-founder @ Ansybl.io
-here are a few things to keep in mind: 
-1. SSD choice is the most important from a hardware perspective. An NVMe drive is preferred. 2TB minimum, but the more, the better (especially now that we’ve got blobs live on the mainnet). If you're running in a cloud environment, most drives are network-attached and will most likely be your bottleneck when it comes to sync times/rpc response time.
-2. Reth is fast becoming my favorite execution client. Fast, configurable, and takes less disk space
-3. Take advantage of performance monitoring endpoints that come with nodes. It’s easy to spin up a Grafana dashboard for most clients, and it’ll make your life so much easier when debugging any issues
-- [Nimbus Node Guide](https://nimbus.guide/index.html) docs page
 
 # Block Explorers
 Learn more about Block Explorers 
