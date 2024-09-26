@@ -10,12 +10,12 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 - [Utility Chain](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain)
 -   [Cosmos SDK](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cosmos-sdk)
 -   [Comet BFT](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#cometbft)
--   [THORChain]()
+-   [THORChain](https://github.com/LastL2/Awesome-Last/blob/main/README.md#thorchain)
 -   [Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module](https://github.com/LastL2/Awesome-Last/blob/main/README.md#threshold-signature-schemes-churn-module-node-bonding-design-bifrost-module)
 -  [Utility Chain Node Operators](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#utility-chain-node-operators)
--   [Last L2]()
--   [Rollkit]()
--   [Artela]()
+-   [Last L2](https://github.com/LastL2/Awesome-Last/blob/main/README.md#last-l2)
+-   [Rollkit](https://github.com/LastL2/Awesome-Last/blob/main/README.md#rollkit)
+-   [Artela](https://github.com/LastL2/Awesome-Last/blob/main/README.md#artela)
 - [RPCs](https://github.com/LastL2/Awesome-Last/blob/main/README.md#rpcs)
 -  [Block Explorers](https://github.com/LastL2/Awesome-Last/blob/main/README.md#block-explorers)
 - [Staked Assets](https://github.com/LastL2/Awesome-Last?tab=readme-ov-file#staked-assets)
@@ -118,7 +118,6 @@ Last Utility Chain is using heavily modified version of THORChain using validato
 - [THORChain - Consensus Failure](https://www.youtube.com/watch?v=6drbzW5-8Io&ab_channel=GrassRootsCrypto) video by Grassroots Crypto
 
 ## Threshold Signature Schemes, Churn Module, Node Bonding Design, Bifrost Module
-
 TSS will be used on Last Utility Chain and is a part of the validator voting design structure. Last Utility Chain uses the Bifrost module for its twin-chain communication module.
 - [THORNode Overview](https://docs.thorchain.org/thornodes/overview) docs page
 - [Validator Churn Mechanism](https://docs.thorchain.org/thornodes/overview) 
@@ -138,7 +137,7 @@ The Last Utility Chain is a heavily modified Thorchain variant using validator g
 The Last L2 is the exection environment of Last L2 leveraging Artela and Rollkit
 
 ## Rollkit
--[Introducing Rollkit: a modular rollup framework](https://blog.celestia.org/introducing-rollkit-a-modular-rollup-framework/) blog post
+- [Introducing Rollkit: a modular rollup framework](https://blog.celestia.org/introducing-rollkit-a-modular-rollup-framework/) blog post
 - [Rollkit introduction](https://rollkit.dev/learn/intro) docs page
 - [Rollkit repo](https://github.com/rollkit)
 - [Settlement in the modular stack](https://celestia.org/learn/modular-settlement-layers/settlement-in-the-modular-stack/) blog post
