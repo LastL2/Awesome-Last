@@ -29,6 +29,7 @@ Awesome Last is a public and community-driven resource for blockchain & web3 dev
 Developer Introduction to development and starting your Web3 developer journey: 
 - If you are new to development [Zero to One Web Dev Guide](https://ravi0.notion.site/Zero-to-One-Web-Dev-Guide-0b9dcd9c77b249ca8af4b9e5bd6b676e) is a place to start your journey
 - [How Does Ethereum Work](https://preethikasireddy.medium.com/how-does-ethereum-work-anyway-22d1df506369) required reading to understand how Ethereum blockchain works
+- [How To Become A Blockchain Developer](https://www.youtube.com/watch?v=YjF_tumQ7ro&ab_channel=Chainlink) overview of terms that you should be familiar with prior starting with blockchain development, being familiar with those terms will make it easier for you to kickstart blockchain development
 -  [Web2 to Web3 🚀 — Week 2, Day 1: Scripting and Smart Contracts! Providers, Signers, and Wallets](https://www.youtube.com/watch?v=m2AJAcWk394&ab_channel=AustinGriffith) from Austin Griffith
 - [Introduction to Ethereum Development](https://www.youtube.com/watch?v=MlJPjJQZtC8&t=458s&ab_channel=AustinGriffith) tutorial by Austin Griffith
 - [The Complete Guide to Full Stack Web3 Development](https://dev.to/edge-and-node/the-complete-guide-to-full-stack-web3-development-4g74) by Nader Dabit
