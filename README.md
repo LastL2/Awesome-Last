@@ -214,6 +214,19 @@ The idea behind ve(3,3) governance model is that you (as user and developer) can
 List of amazing DeFi introduction articles and videos: 
 - [What is DEFI? Decentralized Finance Explained (Ethereum, MakerDAO, Compound, Uniswap, Kyber)](https://www.youtube.com/watch?v=k9HYC0EJU6E&ab_channel=Finematics) YouTube video
 - [What is DeFi and How it Works](https://chain.link/education/defi) blog post
+- [Crypto | An API-Based Composable Financial System](https://www.apifirst.tech/p/crypto-an-api-based-composable-financial-system)
+
+  
+- [Governing the gateway to DeFi](https://infinex.xyz/blog/governing-the-gateway-to-defi) blog post by Infinex
+- [Sovereign Pool](https://docs.valantis.xyz/sovereign-pool-subpages) docs page by Valantis
+- [Governance Process Overview](https://sommelier-finance.gitbook.io/sommelier-documentation/introduction/governance-process-overview) docs page by Sommelier
+- [Euler v2](https://www.euler.finance/blog/euler-v2-is-live) blog post
+- [Euler v2 lite paper - modular lending platform](https://docs.euler.finance/euler-v2-lite-paper/)
+
+### Yield farming
+- [AToken](https://docs.aave.com/developers/tokens/atoken) docs page by Aave
+- [Harvest protocol](https://docs.harvest.finance/) docs page
+
   
 ## Awesome DeFi Publications & Tutorials
 List of amazing DeFi and Last related publications:
