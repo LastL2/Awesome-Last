@@ -39,6 +39,7 @@ Developer Introduction to development and starting your Web3 developer journey:
 - [devpill.me](https://www.devpill.me/docs/introduction/foreword/) huge resource for all things Ethereum and Go by DCBuilder
 - [SpeedRunEthereum](https://speedrunethereum.com/) quests on building on Ethereum by Austin Griffith
 - [Worry-free Web3: Getting Started with Web3 Development](https://anettrolikova.medium.com/worry-free-web3-getting-started-with-web3-development-d6ea1fa945ae) blog post where you can find much more tutorials and basic tools!
+- [Solidity by Example](https://solidity-by-example.org/hello-world/) an amazing resource on Solidity language contracts, functions, events, applications primitives... This is a huge resource that every developer, building dapps on EVM will find helpful
 
 ## Developer Tools
 Ethereum Development Environments:
